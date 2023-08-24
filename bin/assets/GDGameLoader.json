@@ -1,0 +1,224 @@
+{
+  "sdx":0.5, "sdy":0.5,
+  "edit":0,
+  "loader":[
+    {
+      "x":-42, "y":16, "dx":0, "dy":0, "speed":1.0, "scale":0.457,
+      "v_x":-34, "v_y":14, "v_scale":0.367,
+      "play":false, "playLoop":false, "a_loop":"loop",
+      "textures":"loader", "custom_a_name":"animation", "name":"a_load",
+      "type":"actorSpine", "debug":0, "active":1
+    },
+    {
+      "x":-11, "y":-22, "dx":0, "dy":0, "speed":0.9, "scale":0.697,
+      "v_x":-7, "v_y":-16, "v_scale":0.577,
+      "play":false, "playLoop":false,
+      "textures":"parimatch_loader", "custom_a_name":"animation", "name":"a_load",
+      "type":"actorSpine", "debug":0, "active":0
+    },
+    {
+      "x":-42, "y":16,
+      "v_x":-34, "v_y":14,
+      "m_i_width":1350, "m_i_height":1100,
+      "v_i_width":1350, "v_i_height":1100,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_snow", "debug":0, "active":0,
+      "entities":[
+        {
+          "scale":0.457, "v_scale":0.367,
+          "play":false, "playLoop":false, "a_loop":"snow_loop",
+          "textures":"loader", "custom_a_name":"snow_animation", "name":"a_snow",
+          "type":"actorSpine", "debug":0, "active":1
+        }
+      ]
+    },
+
+    {
+      "x":-51, "y":60, "scale":0.69,
+      "v_x":-41, "v_y":50, "v_scale":0.55,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_progress", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "type":"sprite", "texture":"line_white", "name":"s_progress_back", "debug":0
+        },
+        {
+          "x":0, "y":0,
+          "type":"sprite", "texture":"line_loader", "name":"s_progress", "debug":0
+        }
+      ]
+    }
+  ],
+  "loader_jp":[
+    {
+      "x":-42, "y":-24, "dx":0, "dy":0, "speed":0.9, "scale":0.457,
+      "v_x":-34, "v_y":-11, "v_scale":0.367,
+      "play":false, "playLoop":false, "a_loop":"loop_Jackpot",
+      "textures":"loader", "custom_a_name":"animation_jackpot", "name":"a_load",
+      "type":"actorSpine", "debug":0
+    },
+
+    {
+      "x":-42, "y":16,
+      "v_x":-34, "v_y":14,
+      "m_i_width":1350, "m_i_height":1100,
+      "v_i_width":1350, "v_i_height":1100,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_snow", "debug":0, "active":0,
+      "entities":[
+        {
+          "scale":0.457, "v_scale":0.367,
+          "play":false, "playLoop":false, "a_loop":"snow_loop",
+          "textures":"loader", "custom_a_name":"snow_animation", "name":"a_snow",
+          "type":"actorSpine", "debug":0, "active":1
+        }
+      ]
+    },
+
+    {
+      "x":-51, "y":5, "scale":0.69,
+      "v_x":-41, "v_y":12, "v_scale":0.55,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_progress", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "type":"sprite", "texture":"line_white", "name":"s_progress_back", "debug":0
+        },
+        {
+          "x":0, "y":0,
+          "type":"sprite", "texture":"line_loader", "name":"s_progress", "debug":0
+        }
+      ]
+    }
+  ],
+  "entities":[
+    {
+      "x":0, "y":0,
+      "width":100, "height":100,
+      "color":"0x000000", "alpha":1,
+      "type":"rect", "name":"s_background", "debug":0, "active":0
+    },
+    {
+      "x":-228, "y":-120,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_respons_warning", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0, "type":"sprite", "texture":"dialoque_bg", "name":"s_dialoque_bg", "debug":0
+        },
+        {
+          "x":23, "y":74,
+          "type":"sprite", "texture":"warning_icon", "name":"s_warning_icon", "debug":0
+        },
+        {
+          "x":229, "y":31,
+          "width":440, "height":50, "align":"center", "alignV":"middle",
+          "font":{"size":28, "name":"respons_title_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "locCheck":false,
+          "locConst":"responsive_title", "type":"textBitmap", "name":"t_head", "debug":0
+        },
+        {
+          "x":121, "y":78,
+          "width":312, "height":89, "align":"left", "alignV":"top",
+          "font":{"size":12, "name":"respons_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":false, "locCheck":false,
+          "locConst":"responsive_1", "type":"textBitmap", "name":"t_message2", "debug":0
+        },
+        {
+          "x":120, "y":123,
+          "width":333, "height":50, "align":"left", "alignV":"top",
+          "font":{"size":12, "name":"respons_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":false, "locCheck":false,
+          "locConst":"responsive_2", "type":"textBitmap", "name":"t_message3", "debug":0
+        },
+        {
+          "x":121, "y":78,
+          "width":120, "height":38, "align":"left", "alignV":"top",
+          "font":{"size":12, "name":"respons_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "locCheck":false,
+          "locConst":"responsive_1_2", "type":"textBitmap", "name":"t_message1", "debug":0,
+          "hintAreaRect":{"x":0, "y":0, "width":72, "height":10, "type":0, "debug":0}
+        },
+        {
+          "x":122, "y":88,
+          "width":70, "height":2,
+          "color":"0xffffff", "alpha":1,
+          "type":"rect", "name":"r_line", "debug":0
+        },
+        {
+          "x":41, "y":180,
+          "out":"b_yes_0", "over":"b_yes_1",
+          "down":"b_yes_1",
+          "type":"button", "name":"b_yes", "debug":0,
+          "label":{
+            "x":91, "y":31, "width":157, "height":40, "align":"center", "alignV":"middle",
+            "font":{"size":14, "name":"respons_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "locCheck":false,
+            "locConst":"responsive_yes", "type":"textBitmap", "debug":0
+          }
+        },
+        {
+          "x":237, "y":180,
+          "out":"b_no_0", "over":"b_no_1",
+          "down":"b_no_1",
+          "type":"button", "name":"b_no", "debug":0,
+          "label":{
+            "x":91, "y":31, "width":157, "height":40, "align":"center", "alignV":"middle",
+            "font":{"size":14, "name":"respons_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "locCheck":false,
+            "locConst":"responsive_no", "type":"textBitmap", "name":"t_message1", "debug":0
+          }
+        }
+      ]
+    },
+    {
+      "x":-228, "y":-120,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_sound_warning", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0, "type":"sprite", "texture":"dialoque_bg", "name":"s_dialoque_bg", "debug":0
+        },
+        {
+          "x":229, "y":117,
+          "width":445, "height":70, "align":"center", "alignV":"middle",
+          "fontFamily":"Arial", "fontSize":"27pt", "fill":"#FFFFFF", "fontWeight":"bold",
+          "oneLine":true, "locConst":"sound_message_1", "checkFontSize":true, "padding":10,
+          "type":"textFont", "name":"t_message1", "debug":0
+        },
+        {
+          "x":289, "y":202, "anchor":0.5,
+          "out":"b_dialoque_0", "over":"b_dialoque_1",
+          "type":"buttonMobile", "name":"b_yes", "debug":0,
+          "overScale":1.0, "downScale":0.9,
+          "entities":[
+            {
+              "x":0, "y":0, "anchor":0.5,
+              "type":"sprite", "texture":"b_dialogue_sound_on_0", "name":"s_ico", "debug":0,
+              "out":"b_dialogue_sound_on_0", "over":"b_dialogue_sound_off_1",
+              "down":"b_dialogue_sound_on_1"
+            }
+          ]
+        },
+        {
+          "x":167, "y":202, "anchor":0.5,
+          "out":"b_dialoque_0", "over":"b_dialoque_1",
+          "type":"buttonMobile", "name":"b_no", "debug":0,
+          "overScale":1.0, "downScale":0.9,
+          "entities":[
+            {
+              "x":0, "y":0, "anchor":0.5,
+              "type":"sprite", "texture":"b_dialogue_sound_off_0", "name":"s_ico", "debug":0,
+              "out":"b_dialogue_sound_off_0", "over":"b_dialogue_sound_off_1",
+              "down":"b_dialogue_sound_off_1"
+            }
+          ]
+        }
+
+      ]
+    }
+
+  ]
+}

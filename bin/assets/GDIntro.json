@@ -1,0 +1,30 @@
+{
+  "debug":0, "edit":0,
+
+  "x":0, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+  "v_x":0, "v_y":0,
+
+  "deepPosition":true,
+  
+      "entities":[
+        {
+          "x":0, "y":0,
+          "m_x":0, "m_y":0, "sdx":-0.5, "sdy":-0.5,
+          "v_x":0, "v_y":0,
+          "m_i_width":1920, "m_i_height":1080,
+          "v_i_width":1920, "v_i_height":1080,
+          "interactiveChildren":true, "centered":false,  "cacheAsBitmap":false,
+          "type":"container", "name":"c_game_bg",  "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0,
+              "v_x":-947, "v_y":0,
+              "type":"sprite", "texture":"Background_1.png", "name":"s_game_bg", "debug":0
+            }
+          ]
+        }
+      ]
+
+    }
+    
+  

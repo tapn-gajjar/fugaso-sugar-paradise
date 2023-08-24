@@ -1,0 +1,22 @@
+win multi-line = [60,164,121,237,19]
+
+respin on 2 reel = [42,17,0,283,106]
+
+respin_no-win = [42,138,231,283,106]
+respin - second respin on 2 reel[36,44,231,283,106]
+
+respin_win = [51,186,99,343,107]
+respin - second spin[36,0,15,21,21]
+
+respin with 2 reels - [59,341,112,1,54]
+
+respin with 3 reels - [59,341,112,303,54]
+
+wild on 4 reel - [0,0,0,81,54]
+second wild, reel2 - [0,43,0,0,0]
+third wild, reel3 - [0,0,3,0,0]
+
+win coins = [117,342,34,156,65]
+big win = [119,336,116,247,12]
+
+check bug [35,111,3,3,23]

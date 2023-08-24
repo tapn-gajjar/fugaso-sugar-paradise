@@ -1,0 +1,101 @@
+{
+  "show_debug":0, "debug":0,
+
+  "x":0, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+  "v_x":-127, "v_y":260, "v_scale":0.62,
+
+  "window_auto_hide":true,
+  "window_show_sec":3.0,
+
+  "time_alpha":1.0,
+
+  "start_y":424,
+  "finish_x":356, "finish_y":54, "finish_scale":0.38,
+  "v_finish_x":416, "v_finish_y":-50,
+  "time_show_text":1,
+  "time_hide_text":0.7,
+
+  "entities":[
+    {
+      "x":0, "y":0, "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.92, "time_tween":0.5,
+      "type":"rect", "name":"r_bonus_tint", "debug":0, "active":10
+    },
+    {
+      "x":0, "y":0, "type":"sprite", "active":0,
+      "texture":"Game_Lil_Santa_free_spins.png", "name":"s_preview", "debug":0
+    },
+    {
+      "x":640, "y":350,
+      "deepPosition":false, "noCheckSize":true,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_texts", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":300, "height":156, "align":"right", "alignV":"middle",
+          "font":{"size":163, "name":"free_in_free_font"}, "letterSpacing":3,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "text":"+10", "type":"textBitmap", "name":"t_count", "debug":0,
+          "hin":{
+            "width":300, "height":156, "align":"right", "alignV":"middle",
+            "fontSize":"155px", "fontName":"Mangal", "letterSpacing":0,
+            "dropShadow": true,
+            "dropShadowAngle": 7.9,
+            "dropShadowColor": "#143333",
+            "dropShadowDistance": 11,
+            "fill": [
+              "#fbd425",
+              "#f9f6d8",
+              "#f4de2a",
+              "#e9b218"
+            ],
+            "fillGradientStops": [
+              0.2,
+              0.6,
+              0.7
+            ],
+            "miterLimit": 0,
+            "stroke": "#5b0700",
+            "strokeThickness": 6,
+            "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+            "padding":15, "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":39, "y":0,
+          "width":300, "height":133, "align":"left", "alignV":"middle",
+          "font":{"size":75, "name":"free_in_free_font"}, "letterSpacing":3,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"free_in_free", "type":"textBitmap", "name":"t_free_game_1", "debug":0,
+          "hin":{
+            "width":300, "height":133, "align":"left", "alignV":"middle",
+            "fontSize":"70px", "fontName":"Mangal", "letterSpacing":0,
+            "dropShadow": true,
+            "dropShadowAngle": 7.9,
+            "dropShadowColor": "#143333",
+            "dropShadowDistance": 11,
+            "fill": [
+              "#fbd425",
+              "#f9f6d8",
+              "#f4de2a",
+              "#e9b218"
+            ],
+            "fillGradientStops": [
+              0.2,
+              0.6,
+              0.7
+            ],
+            "miterLimit": 0,
+            "stroke": "#5b0700",
+            "strokeThickness": 6,
+            "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+            "padding":15, "type":"textFont", "debug":0
+          }
+        }
+      ],
+      "align":{"x":0.5, "y":0.5, "rect":{"width":825, "height":180}, "edit":false, "-autoUpdate":true}
+    }
+
+  ]
+}

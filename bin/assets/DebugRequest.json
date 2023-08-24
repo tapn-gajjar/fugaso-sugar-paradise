@@ -1,0 +1,700 @@
+{
+  "-requests":[
+    {
+      "subType": "SPIN",
+      "balance": 299800,
+      "creditType": 100,
+      "minBet": 0,
+      "maxBet": 0,
+      "lines": null,
+      "reels": null,
+      "possLines": null,
+      "result": {
+        "total": 9000,
+        "stops": [
+          222,
+          212,
+          45,
+          1,
+          29
+        ],
+        "holds": [],
+        "wons": [
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 0,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 5,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 6,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 7,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 9,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 10,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 13,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 14,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 15,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 17,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 19,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 20,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 23,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 25,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 26,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 29,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 30,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 41,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          }
+        ],
+        "choice": null,
+        "cards": [
+          {
+            "symbol": "S",
+            "color": "b",
+            "suit": "S",
+            "symbolString": "S",
+            "red": false,
+            "black": true
+          },
+          {
+            "symbol": "S",
+            "color": "b",
+            "suit": "S",
+            "symbolString": "S",
+            "red": false,
+            "black": true
+          },
+          {
+            "symbol": "D",
+            "color": "r",
+            "suit": "D",
+            "symbolString": "D",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "S",
+            "color": "b",
+            "suit": "S",
+            "symbolString": "S",
+            "red": false,
+            "black": true
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "D",
+            "color": "r",
+            "suit": "D",
+            "symbolString": "D",
+            "red": true,
+            "black": false
+          }
+        ],
+        "gambleCount": 5,
+        "special": {},
+        "extraData": null,
+        "grid": null,
+        "custom": null,
+        "categories": null
+      },
+      "possBets": null,
+      "possDenoms": null,
+      "possReels": null,
+      "currLines": 100,
+      "currBet": 50,
+      "currDenom": 1,
+      "free": null,
+      "wins": null,
+      "nextAct": "COLLECT",
+      "category": 0,
+      "roundId": 992939,
+      "roundType": "SIMPLE",
+      "roundMultiplier": 1,
+      "promo": {
+        "amount": 0,
+        "multi": 1
+      },
+      "currReels": 5,
+      "kind": "GAME_DATA",
+      "id": 6
+    },
+    {
+      "subType": "COLLECT",
+      "balance": 308800,
+      "creditType": 100,
+      "minBet": 0,
+      "maxBet": 0,
+      "lines": null,
+      "reels": null,
+      "possLines": null,
+      "result": {
+        "total": 9000,
+        "stops": [
+          222,
+          212,
+          45,
+          1,
+          29
+        ],
+        "holds": [],
+        "wons": [
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 0,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 5,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 6,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 7,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 9,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 10,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 13,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 14,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 15,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 17,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 19,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 20,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 23,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 25,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 26,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 29,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 30,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          },
+          {
+            "symbol": "G",
+            "count": 3,
+            "offset": 0,
+            "amount": 500,
+            "lineNum": 41,
+            "multi": 1,
+            "indexes": null,
+            "freeSpins": 0,
+            "points": null,
+            "wilds": null
+          }
+        ],
+        "choice": null,
+        "cards": [
+          {
+            "symbol": "S",
+            "color": "b",
+            "suit": "S",
+            "symbolString": "S",
+            "red": false,
+            "black": true
+          },
+          {
+            "symbol": "S",
+            "color": "b",
+            "suit": "S",
+            "symbolString": "S",
+            "red": false,
+            "black": true
+          },
+          {
+            "symbol": "D",
+            "color": "r",
+            "suit": "D",
+            "symbolString": "D",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "S",
+            "color": "b",
+            "suit": "S",
+            "symbolString": "S",
+            "red": false,
+            "black": true
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "H",
+            "color": "r",
+            "suit": "H",
+            "symbolString": "H",
+            "red": true,
+            "black": false
+          },
+          {
+            "symbol": "D",
+            "color": "r",
+            "suit": "D",
+            "symbolString": "D",
+            "red": true,
+            "black": false
+          }
+        ],
+        "gambleCount": 5,
+        "special": {},
+        "extraData": null,
+        "grid": null,
+        "custom": null,
+        "categories": null
+      },
+      "possBets": null,
+      "possDenoms": null,
+      "possReels": null,
+      "currLines": 100,
+      "currBet": 50,
+      "currDenom": 1,
+      "free": null,
+      "wins": null,
+      "nextAct": "BET",
+      "category": 0,
+      "roundId": 992939,
+      "roundType": "SIMPLE",
+      "roundMultiplier": 1,
+      "promo": {
+        "amount": 0,
+        "multi": 1
+      },
+      "currReels": 5,
+      "kind": "GAME_DATA",
+      "id": 6
+    }
+  ]
+}

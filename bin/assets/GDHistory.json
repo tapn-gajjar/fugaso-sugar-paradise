@@ -1,0 +1,53 @@
+{
+  "debug":0, "visible":0,
+
+  "x":200, "y":100, "scale":1.0,
+  "sdx":0.5, "sdy":0.5,
+
+  "tintAlpha":0.6,
+  "tintColor":"0xD1D2D1",
+
+  "entities":[
+    {
+      "x":0, "y":0, "type":"sprite", "texture":"bg_history", "name":"s_bg_history", "debug":0
+    },
+    {
+      "x":-194, "y":-111,
+      "m_x":0, "m_y":0,
+      "v_x":0, "v_y":0,
+      "1width":1280, "1height":720,
+      "type":"sprite", "texture":"history_desk_2", "m_texture":"auto_pre2",
+      "v_texture":"mobile_v", "name":"s_preview", "debug":0, "active":0
+    },
+
+    {
+      "x":843, "y":25,
+      "out":"b_history_close_0", "over":"b_history_close_1",
+      "down":"b_history_close_2", "soundOver":"btn_over",
+      "type":"button", "name":"b_close", "debug":0
+    },
+    {
+      "x":0, "y":0,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_history_block", "debug":0,
+      "entities":[
+
+      ]
+    },
+
+    {
+      "x":444, "y":62,
+      "width":700, "height":370, "align":"center", "alignV":"top",
+      "font":{"size":47, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":false, "toUpperCase":false, "locCheck":true,
+      "locConst":"history_not_available", "type":"textBitmap", "name":"t_free2play", "debug":0,
+      "hin":{
+        "x":0, "y":8,
+        "width":700, "height":370, "align":"center", "alignV":"top",
+        "fontSize":"48px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+        "checkFontSize":true, "oneLine":false, "toUpperCase":false, "leading":9, "locCheck":false,
+        "text":"", "type":"textFont", "debug":0
+      }
+    }
+  ]
+}

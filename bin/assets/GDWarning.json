@@ -1,0 +1,66 @@
+{
+  "debug":0, "visible":0,
+  "debug_game_const":0,
+  "debug_code":null,
+
+  "x":640, "y":348, "sdx":0.5, "sdy":0.5,
+  "v_x":270, "v_y":478, "v_sdy":0.5,
+
+  "tintAlpha":0.6,
+  "tintColor":"0xD1D2D1",
+
+  "entities":[
+    {
+      "x":0, "y":0, "anchor":0.5,
+      "type":"sprite", "texture":"dialoque_bg", "name":"s_warning_bg", "debug":0
+    },
+    {
+      "x":-205, "y":-46, "type":"sprite", "texture":"warning_icon", "name":"s_warning_icon", "debug":0
+    },
+    {
+      "x":0, "y":-95,
+      "width":440, "height":50, "align":"center", "alignV":"middle",
+      "font":{"size":28, "name":"warning_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":true, "locCheck":true,
+      "text":"MESSAGE", "type":"textBitmap", "name":"t_head", "debug":0,
+      "hin":{
+        "x":0, "y":-1,
+        "width":440, "height":50, "align":"center", "alignV":"middle",
+        "fontFamily":"Mangal", "padding":10, "fontSize":"21pt", "fill":"#FFFFFF",
+        "oneLine":true, "checkFontSize":true, "toUpperCase":true, "locCheck":false,
+        "text":"MESSAGE",
+        "type":"textFont", "debug":0
+      }
+    },
+    {
+      "x":-125, "y":-8,
+      "width":345, "height":112, "align":"left", "alignV":"middle",
+      "font":{"size":28, "name":"warning_font"}, "fill":"0xFFFFFF", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":false, "toUpperCase":true, "locCheck":true,
+      "text":"ESTABLISHING CONNECTION \nPLEASE WAIT", "type":"textBitmap", "name":"t_message", "debug":0,
+      "hin":{
+        "x":0, "y":-1,
+        "width":345, "height":112, "align":"left", "alignV":"middle",
+        "fontFamily":"Mangal", "padding":10, "fontSize":"21pt", "fill":"#FFFFFF",
+        "oneLine":false, "checkFontSize":true, "trim":false, "leading":3, "toUpperCase":true,
+        "text":"ESTABLISHING CONNECTION \nPLEASE WAIT", "locCheck":false,
+        "type":"textFont", "debug":0
+      }
+    },
+    {
+      "x":-52, "y":51,
+      "out":"b_dialoque_0", "over":"b_dialoque_1",
+      "down":"b_dialoque_1",
+      "type":"button", "name":"b_close", "debug":0, "soundOver":"btn_over",
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true,
+      "entities":[
+        {
+          "x":0, "y":0, "type":"sprite", "texture":"b_decline_0", "name":"s_ico", "debug":0,
+          "out":"b_decline_0", "over":"b_decline_0",
+          "down":"b_decline_1"
+        }
+      ]
+    }
+
+  ]
+}

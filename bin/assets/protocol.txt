@@ -1,0 +1,74 @@
+CrazyBot
+Каждый спин матрица барабанов приходит ввиде одномерного массива result.special.matrix(ВМЕСТО result.screen).
+Посл прeрывания игры во фри, состояние игры хранится в result.extraData.
+result.extraData - содержит стек с элементами состояния.
+Каждый элемент сдержит {dropStops,dropReels,dropCount} для каждого состояния.
+Для восстановления игры фри надо взять последнее состояние из стека. Первое состояние в стеке это состояние перед началом фри игры.
+Для отображении матрицы в истории использовать поле result.special.matrix.
+В конце игры фри состояние(состояние перед фри со скаттерами) можно восстановить из result.extraData.
+
+SugarDrop
+В игре нет линий, поэтому по каждому выигрышу посылаются все позиции кластера. В каждом спине
+посылается:
+- result.grid - массив барабанов. 
+- result.special.matrix - содержит барабан  (по столбцам) после взрыва кластера выигрыша.
+Пример:
+result.grid: 
+D   I   G   I   C   H   F   
+D   G   G   H   G   H   F   
+G   G   H   E   G   D   H   
+G   H   F   E   H   G   G   
+G   H   F   E   F   G   E   
+I   D   I   C   F   G   E   
+I   G   G   C   I   I   I   
+Выигрыш символ G
+result.special.matrix: [?, ?, ?, D, D, I, I, ?, ?, I, H, H, D, G, ?, B, H, F, F, I, G, I, H, E, E, E, C, C, C, G, G, H, F, F, I, H, H, D, G, G, G, I, F, F, H, G, E, E, I] 
+?   ?   ?   I   C   H   F   
+?   ?   B   H   G   H   F   
+?   I   H   E   G   D   H   
+D   H   F   E   H   G   G   
+D   H   F   E   F   G   E   
+I   D   I   C   F   G   E   
+I   G   G   C   I   I   I   
+
+- result.special.unlocks - массив множителей (на момент появления выигрышных кластеров)
+- result.special.wildMatrix - массив множиетелей после взрыва кластеров
+Пример (выигрыш G):
+F   F   H   G   H   E   G
+C   H   D   E   I   D   G
+F   I   H   H   G   E   G
+I   G   H   G   I   F   I
+G   G   I   C   G   I   H
+G   G   I   D   I   G   C
+F   E   F   D   G   G   D
+
+result.special.unlocks: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+result.special.unlocks
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   3   0   0   0   0   0
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+
+result.special.matrix: [?, ?, F, C, F, I, F, ?, ?, F, H, I, B, E, H, D, H, H, I, I, F, G, E, H, G, C, D, D, H, I, G, I, G, I, G, E, D, E, F, I, G, G, G, G, G, I, H, C, D]
+result.special.matrix:
+?   ?   H   G   H   E   G
+?   ?   D   E   I   D   G
+F   F   H   H   G   E   G
+C   H   H   G   I   F   I
+F   I   I   C   G   I   H
+I   B   I   D   I   G   C
+F   E   F   D   G   G   D
+
+result.special.wildMatrix: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+result.special.wildMatrix:
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   0   0   0   0   0   0
+0   3   0   0   0   0   0
+0   0   0   0   0   0   0
+

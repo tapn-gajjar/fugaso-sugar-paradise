@@ -1,0 +1,54 @@
+{
+  "render":{
+    "setting_line":{
+      "alpha":1, "typeDraw":5,
+      "linePath":[{"x":402, "y":0}],
+      "lineStyle":{"width":3, "color":"0xFFFFFF", "alpha":0.3},
+      "type":"graphic", "debug":0
+    },
+    "empty_graphic":{
+      "x":0, "y":0,
+      "width":2, "height":2,
+      "color":"0x000000", "alpha":0,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"rect", "name":"empty_graphic"
+    },
+    "paytable_line_1":{
+      "alpha":1, "typeDraw":0,
+      "width":410, "height":4,
+      "color":"0xffffff",
+      "lineStyle":{"width":2, "color":"0x000000", "alpha":1.0},
+      "type":"graphic", "debug":0
+    },
+    "paytable_line_2":{
+      "alpha":1, "typeDraw":0,
+      "width":392, "height":4,
+      "color":"0xffffff",
+      "lineStyle":{"width":2, "color":"0x000000", "alpha":1.0},
+      "type":"graphic", "debug":0
+    }
+  },
+  "m_render":{
+    "empty_graphic":{
+      "x":0, "y":0,
+      "width":2, "height":2,
+      "color":"0x000000", "alpha":0,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"rect", "name":"empty_graphic"
+    },
+    "paytable_line_1":{
+      "alpha":1, "typeDraw":0,
+      "width":334, "height":4,
+      "color":"0xffffff",
+      "lineStyle":{"width":2, "color":"0x000000", "alpha":1.0},
+      "type":"graphic", "debug":0
+    },
+    "paytable_line_2":{
+      "alpha":1, "typeDraw":0,
+      "width":332, "height":4,
+      "color":"0xffffff",
+      "lineStyle":{"width":2, "color":"0x000000", "alpha":1.0},
+      "type":"graphic", "debug":0
+    }
+  }
+}

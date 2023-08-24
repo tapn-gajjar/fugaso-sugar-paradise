@@ -1,0 +1,73 @@
+stages:
+  - preload-helper-scripts
+  - build
+  - deploy-s3
+  - update-config
+
+preload-helper-scripts:
+  stage: preload-helper-scripts
+  image: alpine:3.9
+  only:
+    - master
+    - test
+  tags:
+    - slots-docker
+  before_script:
+    - apk add git
+  script:
+    - git clone --depth=1 https://${CIHELPERUSER}:${CIHELPERTOKEN}@git.maxbet.asia/slots/ci-helper-scripts CIHelperScripts
+  artifacts:
+    expire_in: 1 hour
+    paths:
+      - CIHelperScripts/*.sh
+
+build:
+  stage: build
+  image: node:8.16.0-alpine
+  only:
+    - test
+  tags:
+    - slots-docker
+  before_script:
+    - apk add git zip jq tzdata
+    - npm config set unsafe-perm true
+    - npm install
+  script:
+    - npm run build:ci
+  artifacts:
+    expire_in: 1 hour
+    paths:
+      - release/*.zip
+  cache:
+    paths:
+      - node_modules/
+
+deploy-s3:
+  stage: deploy-s3
+  image: python:3.7.3-alpine
+  tags:
+    - slots-docker
+  only:
+    - test
+  before_script:
+    - apk add unzip
+    - mkdir -p .pip
+    - pip --cache-dir=.pip install awscli==1.16.167
+  script:
+    - sh CIHelperScripts/deploy-s3.sh ${S3ACCESSKEY} ${S3SECRETKEY}
+  cache:
+    paths:
+      - .pip
+
+update-config:
+  stage: update-config
+  image: python:2.7.16-alpine
+  tags:
+    - slots-docker
+  only:
+    - master
+    - test
+  before_script:
+    - apk add git coreutils openssh-client jq
+  script:
+    - sh CIHelperScripts/update-config.sh $CI_COMMIT_REF_NAME "${S3DEPLOYKEYB32}${S3DEPLOYKEYPAD}"

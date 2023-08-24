@@ -1,0 +1,52 @@
+{
+  "symbName":"symb_",
+  "blurSymbName":"symb_blur_",
+  "blockSymbName":"symb_block_",
+  "textureName":"symb_1",
+
+  "debug_rect":0,
+
+  "alpha_not_win":false,
+  "block_alpha":0.35,
+  "delay_change_symbol":0.25,
+  "block_tween":0.4,
+  "block_tween_end":0.3,
+
+  "tint_not_win":false,
+  "tint_color":"0x5D5D5F",
+  "-tint_sprite":"symb_",
+
+  "bg_symbol":{
+    "x":0, "y":0, "anchor":0.5,
+    "type":"sprite", "texture":"symb_ex_bg", "name":"s_symb_ex_bg", "debug":0
+  },
+
+  "wild":{
+    "x":5, "y":20, "speed":1,"dx":0, "dy":0, "scale":1, "skin":"cannon",
+    "play":false, "playLoop":false, "cannon_fx":"cannon_fx", "cannon_win":"cannon_win", "cannon_turns":"cannon_turns",
+    "textures":"symbols", "custom_a_name":"cannon_landing", "name":"a_wild",
+    "type":"actorSpine", "debug":0
+  },
+  "-wild_second":{
+    "x":0, "y":0, "speed":1,"dx":0, "dy":0, "scale":1, "skin":"cannon",
+    "play":false, "playLoop":false, "cannon_fx":"cannon_fx",
+    "textures":"symbols", "custom_a_name":"cannon_landing", "name":"a_wild2",
+    "type":"actorSpine", "debug":0
+  },
+  "wait":{
+    "x":0, "y":0, "dx":0, "dy":0, "speed":1,
+    "textures":"symbol_9", "custom_a_name":"symbol_9_win", "name":"a_symbol_effect_9",
+    "type":"actorSpine", "debug":0
+  },
+  "scatter":{
+    "x":0, "y":0, "dx":0, "dy":0, "speed":1,
+    "textures":"symbol_9", "custom_a_name":"symbol_9_trigger", "name":"a_symbol_effect_9",
+    "type":"actorSpine", "debug":0
+  },
+
+  "-9":{
+    "x":0, "y":0, "dx":0, "dy":0, "anchor":0.5,
+    "cacheName":"symbol_9_pre", "nameAnimation":"symbol_9_pre",
+    "type":"actor", "fps":30, "speed":1, "debug":0
+  }
+}

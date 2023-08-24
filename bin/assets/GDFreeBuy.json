@@ -1,0 +1,89 @@
+{
+  "show_debug":0, "debug":0,
+
+  "x":0, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+  "v_x":-193, "v_y":226, "v_scale":0.72,
+
+  "time_alpha":1.0,
+
+  "locTexture":{
+    "deu":"buy_bonus_deu",
+    "eng,gb,can":"buy_bonus_eng",
+    "esp":"buy_bonus_esp",
+    "fra":"buy_bonus_fra",
+    "gre":"buy_bonus_gre",
+    "hin":"buy_bonus_hin",
+    "ind":"buy_bonus_ind",
+    "ita":"buy_bonus_ita",
+    "jpn":"buy_bonus_jpn",
+    "kor":"buy_bonus_kor",
+    "nor":"buy_bonus_nor",
+    "pol":"buy_bonus_pol",
+    "prt":"buy_bonus_prt",
+    "ron":"buy_bonus_ron",
+    "rus":"buy_bonus_rus",
+    "swe":"buy_bonus_swe",
+    "tha":"buy_bonus_tha",
+    "tur":"buy_bonus_tur",
+    "ukr":"buy_bonus_ukr",
+    "vie":"buy_bonus_vie",
+    "zh_cn":"buy_bonus_zh_cn",
+    "zh_tw":"buy_bonus_zh_tw"
+  },
+
+  "entities":[
+    {
+      "x":0, "y":0, "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.01, "noCheckSize":true,
+      "time_tween":0.3, "time_hide":0.3,
+      "type":"rect", "name":"r_bonus_tint", "debug":0
+    },
+
+    {
+      "x":642, "y":400, "dx":0, "dy":0, "speed":1,
+      "deepPosition":false, "noCheckSize":true,
+      "play":true, "playLoop":true, "destroyOnKill":true,
+      "textures":"", "custom_a_name":"bonus_game/Pop_up_idle", "name":"s_free_bg",
+      "type":"actorSpine", "debug":0
+    },
+    {
+      "x":648, "y":188, "anchor":0.5,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"sprite", "texture":"circle4",
+      "name":"s_head", "debug":0
+    },
+    {
+      "x":707, "y":393,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"sprite", "texture":"b_fx_1",
+      "name":"s_b_fx_1", "debug":0
+    },
+    {
+      "x":418, "y":393,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"sprite", "texture":"b_fx_2",
+      "name":"s_b_fx_2", "debug":0
+    },
+    {
+      "x":648, "y":338, "noCheckSize":true,
+      "width":444, "height":115, "align":"center", "alignV":"middle",
+      "font":{"size":113, "name":"buy_number_font"}, "-fill":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+      "text":"120", "type":"textNumberBitmap", "name":"t_cost", "debug":0
+    },
+    {
+      "x":792, "y":485, "anchor":0.5, "noCheckSize":true,
+      "out":"b_buy_0", "over":"b_buy_1",
+      "down":"b_buy_2", "soundOver":"btn_over",
+      "type":"button", "name":"b_yes", "debug":0,
+      "hintAreaRect":{"x":-48, "y":-53, "width":97, "height":97, "type":0, "debug":0}
+    },
+    {
+      "x":505, "y":485, "anchor":0.5, "noCheckSize":true,
+      "out":"b_buy_close_0", "over":"b_buy_close_1",
+      "down":"b_buy_close_2", "soundOver":"btn_over",
+      "type":"button", "name":"b_no", "debug":0,
+      "hintAreaRect":{"x":-48, "y":-53, "width":97, "height":97, "type":0, "debug":0}
+    }
+  ]
+}

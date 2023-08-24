@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    "process": true,
+    "revolt": true,
+    "OMY": true,
+    "PIXI": true,
+    "ENV":  true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": [
+      "off"
+    ],
+    "no-unused-vars": [
+      "warn"
+    ],
+    "indent": [
+      "off",
+      4
+    ],
+    "linebreak-style": [
+      "off",
+      "windows"
+    ],
+    "quotes": [
+      "off",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

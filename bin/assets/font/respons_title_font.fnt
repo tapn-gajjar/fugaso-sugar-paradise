@@ -1,0 +1,24 @@
+<font>
+  <info face="respons_title_font" size="35" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="35" base="25" scaleW="35" scaleH="193" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="respons_title_font.png"/>
+  </pages>
+  <chars count="14">
+    <char id="82" x="2" y="2" width="12" height="25" xoffset="1" yoffset="0" xadvance="14" page="0" chnl="15"/>
+    <char id="101" x="2" y="29" width="11" height="25" xoffset="1" yoffset="0" xadvance="12" page="0" chnl="15"/>
+    <char id="115" x="2" y="56" width="12" height="25" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="112" x="15" y="29" width="12" height="25" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="111" x="16" y="2" width="12" height="25" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="110" x="2" y="83" width="13" height="25" xoffset="1" yoffset="0" xadvance="14" page="0" chnl="15"/>
+    <char id="105" x="16" y="56" width="4" height="25" xoffset="1" yoffset="0" xadvance="6" page="0" chnl="15"/>
+    <char id="98" x="2" y="110" width="12" height="25" xoffset="1" yoffset="0" xadvance="14" page="0" chnl="15"/>
+    <char id="108" x="2" y="137" width="11" height="25" xoffset="1" yoffset="0" xadvance="11" page="0" chnl="15"/>
+    <char id="32" x="2" y="164" width="0" height="0" xoffset="0" yoffset="25" xadvance="5" page="0" chnl="15"/>
+    <char id="71" x="2" y="166" width="12" height="25" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="97" x="15" y="137" width="14" height="25" xoffset="1" yoffset="0" xadvance="15" page="0" chnl="15"/>
+    <char id="109" x="16" y="110" width="17" height="25" xoffset="1" yoffset="0" xadvance="18" page="0" chnl="15"/>
+    <char id="103" x="17" y="83" width="12" height="25" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="1" yoffset="0" xadvance="5" page="0" chnl="15"/>
+  </chars>
+</font>

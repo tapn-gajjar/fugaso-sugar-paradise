@@ -1,0 +1,75 @@
+{
+  "debug":0, "visible":0,
+
+  "x":640, "y":321, "sdx":0.5, "sdy":0.5,
+  "v_x":270, "v_y":446, "v_sdy":0.5,
+
+  "tintAlpha":0.6,
+  "tintColor":"0xD1D2D1",
+
+  "entities":[
+    {
+      "x":0, "y":0, "anchor":0.5,
+      "type":"sprite", "texture":"dialoque_bg", "name":"s_warning_bg", "debug":0
+    },
+
+    {
+      "x":0, "y":26,
+      "width":439, "height":178, "align":"center", "alignV":"middle",
+      "font":{"size":40, "name":"reality_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":false, "toUpperCase":false, "locCheck":true, "fullCheckFontSize":true,
+      "text":"YOU HAVE BEEN PLAYING FOR 0 MINUTES.", "type":"textBitmap", "name":"t_text", "debug":0,
+      "hin":{
+        "x":0, "y":0,
+        "width":439, "height":178, "align":"center", "alignV":"middle", "fontWeight":500,
+        "fontSize":"40px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0, "leading":9,
+        "checkFontSize":true, "oneLine":false, "toUpperCase":false,
+        "text":"you have been playing for 150 minutest and win 29689.06 €.", "type":"textFont", "debug":0
+      }
+    },
+
+    {
+      "x":-237, "y":133, "soundOver":"btn_over",
+      "out":"b_real_yes_0", "over":"b_real_yes_1", "down":"b_real_yes_2",
+      "type":"button", "name":"b_yes", "debug":0,
+      "entities":[
+        {
+          "x":116, "y":24,
+          "width":211, "height":57, "align":"center", "alignV":"middle",
+          "font":{"size":32, "name":"ui_font"}, "fill":"0x000000", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"warning_reality_check_ok", "type":"textBitmap", "name":"t_label", "debug":0,
+          "hin":{
+            "x":0, "y":0,
+            "width":211, "height":57, "align":"center", "alignV":"middle", "fontWeight":500,
+            "fontSize":"32px", "fontName":"Mangal", "padding":10, "fill":"0x000000", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        }
+      ]
+    },
+    {
+      "x":6, "y":133, "soundOver":"btn_over",
+      "out":"b_real_no_0", "over":"b_real_no_1", "down":"b_real_no_2",
+      "type":"button", "name":"b_no", "debug":0,
+      "entities":[
+        {
+          "x":116, "y":24,
+          "width":211, "height":57, "align":"center", "alignV":"middle",
+          "font":{"size":32, "name":"ui_font"}, "fill":"0x000000", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"warning_reality_check_cancel", "type":"textBitmap", "name":"t_label", "debug":0,
+          "hin":{
+            "x":0, "y":0,
+            "width":211, "height":57, "align":"center", "alignV":"middle", "fontWeight":500,
+            "fontSize":"32px", "fontName":"Mangal", "padding":10, "fill":"0x000000", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        }
+      ]
+    }
+
+  ]
+}

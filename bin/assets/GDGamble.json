@@ -1,0 +1,256 @@
+{
+  "debug":0, "visible":0,
+
+  "x":50, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+  "v_x":-113, "v_y":117, "v_scale":0.65,
+
+  "deepPosition":true,
+  "tween_alpha_time":1.0,
+  "timeCollectWin":0.0,
+  "time_wait_on_win":1.0,
+  "time_wait_finally_win":2.5,
+
+  "entities":[
+    {
+      "x":0, "y":0,
+      "width":100, "height":100,
+      "color":"0x000000", "alpha":0.4,
+      "type":"rect", "name":"r_tint", "debug":0, "active":0
+    },
+    {
+      "x":169, "y":20, "type":"sprite", "texture":"gamble_screen", "name":"s_gamble_screen", "debug":0
+    },
+    {
+      "x":199, "y":7, "type":"sprite", "texture":"gamble_screen_logo", "name":"s_gamble_screen_logo", "debug":0
+    },
+    {
+      "x":392, "y":123,
+      "width":300, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"gamble_font"}, "fill1":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "locConst":"gamble_a_amount", "type":"textBitmap", "name":"t_1", "debug":0,
+      "locConfig":{
+        "gre":{"fontSize":"17"},
+        "ind":{"fontSize":"18"},
+        "hin":{"fontSize":"30"}
+      }
+    },
+    {
+      "x":694, "y":123,
+      "width":300, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"gamble_font"}, "fill1":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "locConst":"gamble_a_win", "type":"textBitmap", "name":"t_2", "debug":0,
+      "locConfig":{
+        "hin":{"fontSize":"30"}
+      }
+    },
+    {
+      "x":392, "y":201,
+      "width":226, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"gamble_font"}, "fill1":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "locConst":"gamble_a_prev", "type":"textBitmap", "name":"t_3", "debug":0,
+      "locConfig":{
+        "hin":{"fontSize":"30"},
+        "ind":{"fontSize":"18"}
+      }
+    },
+    {
+      "x":591, "y":518,
+      "width":671, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"gamble_font"}, "fill1":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "locConst":"gamble_a_choice", "type":"textBitmap", "name":"t_4", "debug":0,
+      "locConfig":{
+        "hin":{"fontSize":"30"}
+      }
+    },
+
+    {
+      "x":392, "y":146,
+      "width":260, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"gamble_font"}, "1fill":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "text":"0", "type":"textNumberBitmap", "name":"t_amount", "debug":0,
+      "locConfig":{
+        "hin":{"fontSize":"30"}
+      }
+    },
+    {
+      "x":694, "y":146,
+      "width":260, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"gamble_font"}, "1fill":"0x000001", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "text":"0", "type":"textNumberBitmap", "name":"t_win", "debug":0,
+      "locConfig":{
+        "hin":{"fontSize":"30"}
+      }
+    },
+
+    {
+      "x":510, "y":187,
+      "interactiveChildren":false, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_history", "debug":0,
+      "S":"suit_4", "H":"suit_3", "C":"suit_1", "D":"suit_2",
+      "time_tween":0.5,
+      "entities":[
+        {
+          "x":0, "y":0, "scaleX":0.51, "scaleY":0.574,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_card_0", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"card_back", "name":"s_card_back", "debug":0
+            },
+            {
+              "x":66, "y":85, "anchor":0.5,
+              "type":"sprite", "texture":"suit_1", "name":"s_suit", "debug":0
+            },
+            {
+              "x":5, "y":8, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            },
+            {
+              "x":89, "y":128, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            }
+          ]
+        },
+        {
+          "x":74, "y":0, "scaleX":0.51, "scaleY":0.574,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_card_1", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"card_back", "name":"s_card_back", "debug":0
+            },
+            {
+              "x":66, "y":85, "anchor":0.5,
+              "type":"sprite", "texture":"suit_1", "name":"s_suit", "debug":0
+            },
+            {
+              "x":5, "y":8, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            },
+            {
+              "x":89, "y":128, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            }
+          ]
+        },
+        {
+          "x":148, "y":0, "scaleX":0.51, "scaleY":0.574,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_card_2", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"card_back", "name":"s_card_back", "debug":0
+            },
+            {
+              "x":66, "y":85, "anchor":0.5,
+              "type":"sprite", "texture":"suit_1", "name":"s_suit", "debug":0
+            },
+            {
+              "x":5, "y":8, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            },
+            {
+              "x":89, "y":128, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            }
+          ]
+        },
+        {
+          "x":222, "y":0, "scaleX":0.51, "scaleY":0.574,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_card_3", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"card_back", "name":"s_card_back", "debug":0
+            },
+            {
+              "x":66, "y":85, "anchor":0.5,
+              "type":"sprite", "texture":"suit_1", "name":"s_suit", "debug":0
+            },
+            {
+              "x":5, "y":8, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            },
+            {
+              "x":89, "y":128, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            }
+          ]
+        },
+        {
+          "x":296, "y":0, "scaleX":0.51, "scaleY":0.574,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_card_4", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"card_back", "name":"s_card_back", "debug":0
+            },
+            {
+              "x":66, "y":85, "anchor":0.5,
+              "type":"sprite", "texture":"suit_1", "name":"s_suit", "debug":0
+            },
+            {
+              "x":5, "y":8, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            },
+            {
+              "x":89, "y":128, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "x":508, "y":182,
+      "width":368, "height":109,
+      "color":"0x000000", "alpha":1,
+      "type":"rect", "name":"r_card_mask", "debug":0
+    },
+
+    {
+      "x":592, "y":409,
+      "interactiveChildren":false, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_playCard", "debug":0,
+      "S":"suit_4", "H":"suit_3", "C":"suit_1", "D":"suit_2",
+      "time_tween":0.5, "update_time":10, "time_turn":0.2,
+      "tween_move_conf":{"x":544, "y":236, "scaleX":0.51, "scaleY":0.574, "ease":"none"},
+      "textures_close":["card_6", "card_7"],
+      "entities":[
+        {
+          "x":0, "y":0, "type":"sprite", "texture":"card_6", "name":"s_close",
+          "debug":0
+        },
+        {
+          "x":0, "y":0,
+          "interactiveChildren":false, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"s_card", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"card_back", "name":"s_card_back", "debug":0
+            },
+            {
+              "x":66, "y":85, "anchor":0.5,
+              "type":"sprite", "texture":"suit_1", "name":"s_suit", "debug":0
+            },
+            {
+              "x":5, "y":8, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            },
+            {
+              "x":89, "y":128, "type":"sprite", "texture":"card_A", "name":"s_card_A", "debug":0
+            }
+          ]
+        }
+
+      ],
+      "alignContainer":{"x":0.5, "y":0.5, "-rect":{"width":10, "height":10}, "edit":false}
+    },
+
+    {
+      "x":304, "y":319,
+      "alpha":1, "type":"button", "out":"button_red_", "over":"button_red_light",
+      "down":"button_red_push", "block":"button_red_block", "debug":0, "name":"b_red"
+    },
+    {
+      "x":702, "y":319,
+      "alpha":1, "type":"button", "out":"button_black", "over":"button_black_light",
+      "down":"button_black_push", "block":"button_block", "debug":0, "name":"b_black"
+    }
+  ]
+}

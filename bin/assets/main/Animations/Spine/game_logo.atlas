@@ -1,0 +1,15 @@
+game_logo.png
+size:583,397
+filter:Linear,Linear
+fx_rays
+bounds:2,2,387,251
+offsets:16,2,414,265
+gb_glow
+bounds:391,12,190,190
+offsets:0,10,200,210
+spark
+bounds:475,204,191,41
+offsets:12,8,214,57
+rotate:90
+sugar_paradise
+bounds:2,255,471,140

@@ -1,0 +1,33 @@
+{
+  "MainElements":{
+    "widget":{
+      "x":-19, "y":36, "sdx":0, "sdy":0.5,
+      "m_x":-19, "m_y":38, "m_sdx":0, "m_sdy":0,
+      "v_x":-15, "v_y":30,"v_scale":0.75, "v_sdx":0, "v_sdy":0,
+      "position":"left"
+    },
+    "panel_widget":{
+      "edit":0,
+      "x":20, "y":12, "sdx":0, "sdy":0.5,
+      "v_x":0, "v_y":0
+    },
+    "start_window":{
+      "edit":0,
+      "x":650, "y":348, "scale":1.0, "sdx":0.5, "sdy":0.5,
+      "v_x":271, "v_y":395, "v_sdy":0.5, "v_scale":0.67
+    },
+    "final_window":{
+      "edit":0,
+      "x":650, "y":347, "scale":1.0, "sdx":0.5, "sdy":0.5,
+      "v_x":271, "v_y":403, "v_sdy":0.5, "v_scale":0.67
+    },
+    "rules_window":{
+      "edit":0,
+      "x":82, "y":-8, "sdx":0.5, "sdy":0.5
+    },
+    "m_rules_window":{
+      "edit":0,
+      "x":0, "y":0, "sdx":0.5, "sdy":0.5
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{"frames": {
+
+"logo_intro":
+{
+	"frame": {"x":1,"y":1,"w":132,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":93},
+	"sourceSize": {"w":132,"h":93}
+},
+"symb_0":
+{
+	"frame": {"x":81,"y":96,"w":64,"h":57},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":57},
+	"sourceSize": {"w":64,"h":57}
+},
+"symb_1":
+{
+	"frame": {"x":135,"y":1,"w":81,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":91},
+	"sourceSize": {"w":81,"h":91}
+},
+"symb_2":
+{
+	"frame": {"x":140,"y":158,"w":43,"h":52},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":52},
+	"sourceSize": {"w":43,"h":52}
+},
+"symb_3":
+{
+	"frame": {"x":93,"y":162,"w":41,"h":43},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":43},
+	"sourceSize": {"w":41,"h":43}
+},
+"symb_4":
+{
+	"frame": {"x":140,"y":94,"w":61,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":62},
+	"sourceSize": {"w":61,"h":62}
+},
+"symb_5":
+{
+	"frame": {"x":47,"y":167,"w":36,"h":44},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":44},
+	"sourceSize": {"w":36,"h":44}
+},
+"symb_6":
+{
+	"frame": {"x":1,"y":167,"w":37,"h":44},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":44},
+	"sourceSize": {"w":37,"h":44}
+},
+"symb_7":
+{
+	"frame": {"x":1,"y":96,"w":78,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":69},
+	"sourceSize": {"w":78,"h":69}
+},
+"symb_blur_7":
+{
+	"frame": {"x":1,"y":96,"w":78,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":69},
+	"sourceSize": {"w":78,"h":69}
+}},
+"animations": {
+	"symb": ["symb_0","symb_1","symb_2","symb_3","symb_4","symb_5","symb_6","symb_7"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "Resources-0@0.375.png",
+	"format": "RGBA8888",
+	"size": {"w":217,"h":205},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:df77b93ea9f77daa8ea41c6372fbe2fa:78bbf3bc6a62e52aa8618b6087bf44f3:d9d515399958864ae5c359ebc7ebb01f$"
+}
+}

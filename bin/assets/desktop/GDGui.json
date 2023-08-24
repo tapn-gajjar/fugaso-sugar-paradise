@@ -1,0 +1,1510 @@
+{
+  "entities":[
+    {
+      "x":0, "y":625, "anchorX":1, "sdx":0.5,
+      "type":"sprite", "texture":"bar_side", "name":"s_bar_side1", "debug":0
+    },
+    {
+      "x":1280, "y":625, "sdx":0.5,
+      "type":"sprite", "texture":"bar_side", "name":"s_bar_side2", "debug":0
+    },
+    {
+      "x":0, "y":626, "sdx":0.5, "sdy":1,
+      "texture":"bar", "name":"s_bar", "type":"sprite", "debug":0, "alpha":1
+    },
+    {
+      "x":640, "y":650, "sdx":0.5, "sdy":1,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_info_line", "debug":0,
+      "debug_text":0,
+      "txt_inc":{
+        "x":270, "y":603, "v_sdx":0.5, "v_sdy":0.5,
+        "width":435, "height":40, "align":"center", "alignV":"middle",
+        "font":{"size":30, "name":"info_line_font"}, "1fill":"0x000001", "letterSpacing":0,
+        "checkFontSize":true, "oneLine":true, "toUpperCase":true,
+        "text":"560", "type":"textNumberBitmap", "name":"t_win", "debug":0
+      },
+      "entities":[
+        {
+          "x":0, "y":7,
+          "width":437, "height":51, "align":"center", "alignV":"middle",
+          "font":{"size":29, "name":"info_line_font"}, "fill":"0xE7F1EF", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true, "forceCheckFontSize":true,
+          "text":"gui_info_1", "type":"textBitmap", "name":"t_value", "debug":0,
+          "locConfig":{
+            "jpn":{"fontSize":23},
+            "zh_cn":{"fontSize":23},
+            "zh_tw":{"fontSize":23},
+            "kor":{"fontSize":23},
+            "tha":{"fontSize":25},
+            "vie":{"fontSize":20}
+          },
+          "hin":{
+            "width":437, "height":51, "align":"center", "alignV":"middle",
+            "fontSize":"23px", "fontName":"Mangal", "padding":10, "fill":"0xE7F1EF", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+            "locCheck":false, "text":"", "type":"textFont", "debug":0
+          }
+        }
+      ]
+    },
+    {
+      "x":0, "y":693, "sdx":0.0, "sdy":1, "scale":0.98,
+      "type":"sprite", "texture":"bar_logo", "name":"s_logo_small", "debug":0
+    },
+
+    {
+      "x":1106, "y":660, "sdx":0.8, "sdy":1,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"t_bet_2", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":235, "height":40, "align":"right", "alignV":"middle",
+          "font":{"size":24, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+          "locConst":"gui_betTitle+':'", "type":"textBitmap", "name":"t_label", "debug":0,
+          "hin":{
+            "width":235, "height":40, "align":"right", "alignV":"middle",
+            "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":2,
+            "locCheck":false, "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":2, "y":4,
+          "width":235, "height":40, "align":"left", "alignV":"middle",
+          "font":{"size":27, "name":"ui_stroke_number_font"}, "fill":"0xFFFF00", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+          "text":"43838.53", "type":"textNumberBitmap", "name":"t_value", "debug":0
+        }
+      ],
+      "align":{"x":0, "y":-1, "rect":{"width":165, "height":50}, "edit":false}
+    },
+    {
+      "x":979, "y":664, "sdx":0.6, "sdy":1,
+      "width":70, "height":40, "align":"left", "alignV":"middle",
+      "font":{"size":27, "name":"ui_stroke_number_font"}, "fill":"0xFFFF00", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+      "text":"43838.53", "type":"textNumberBitmap", "name":"t_line", "debug":0, "active":10
+    },
+    {
+      "x":976, "y":659, "sdx":0.6, "sdy":1,
+      "width":93, "height":40, "align":"right", "alignV":"middle",
+      "font":{"size":24, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+      "locConst":"gui_LineTitle+':'", "type":"textBitmap", "name":"t_line_label", "debug":0,
+      "hin":{
+        "width":93, "height":40, "align":"right", "alignV":"middle",
+        "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+        "checkFontSize":true, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":2,
+        "locCheck":false, "text":"", "type":"textFont", "debug":0
+      }, "active":10
+    },
+    {
+      "x":232, "y":664, "sdx":0.25, "sdy":1,
+      "width":141, "height":40, "align":"left", "alignV":"middle",
+      "font":{"size":27, "name":"ui_stroke_number_font"}, "fill":"0xFFFF00", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+      "text":"43838.53", "type":"textNumberBitmap", "name":"t_one_bet", "debug":0, "active":1
+    },
+    {
+      "x":228, "y":659, "sdx":0.25, "sdy":1,
+      "width":168, "height":40, "align":"right", "alignV":"middle",
+      "font":{"size":24, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+      "locConst":"gui_oneBetTitle+':'", "type":"textBitmap", "name":"t_one_bet_label", "debug":0,
+      "hin":{
+        "width":168, "height":40, "align":"right", "alignV":"middle",
+        "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+        "checkFontSize":true, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":2,
+        "locCheck":false, "text":"", "type":"textFont", "debug":0
+      }, "active":1
+    },
+
+    {
+      "x":0, "y":304, "sdx":0, "sdy":1,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_auto_game", "debug":0,
+      "cb_lose":{
+        "x":5, "y":197, "soundOver":"btn_over",
+        "out":"b_check_enable_1", "type":"checkBox", "name":"cb_lose", "debug":0,
+        "active":{
+          "out":"b_check_disable_1", "over":"b_check_disable_0",
+          "down":"b_check_disable_0", "block":"b_check_disable_2"
+        },
+        "noActive":{
+          "out":"b_check_enable_1", "over":"b_check_enable_0",
+          "down":"b_check_enable_0", "block":"b_check_enable_2"
+        }
+      },
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":350, "height":370,
+          "color":"0x000000", "alpha":1,
+          "type":"rect", "name":"s_panel_autoplay", "debug":0
+        },
+
+        {
+          "x":5, "y":14,
+          "width":300, "height":40, "align":"left", "alignV":"middle",
+          "font":{"size":24, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_title", "type":"textBitmap", "name":"t_autospin_title", "debug":0,
+          "hin":{
+            "x":0, "y":0,
+            "width":300, "height":40, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":316, "y":12,
+          "out":"b_auto_close_1", "over":"b_auto_close_0", "soundOver":"btn_over",
+          "down":"b_auto_close_2", "block":"b_auto_close_3",
+          "type":"button", "name":"b_close", "debug":0
+        },
+
+        {
+          "x":10, "y":38, "scale":0.3, "type":"sprite", "texture":"b_arrow_right_1", "name":"s_b_arrow_right_1", "debug":0
+        },
+        {
+          "x":30, "y":42,
+          "width":207, "height":33, "align":"left", "alignV":"middle",
+          "font":{"size":20, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_settings", "type":"textBitmap", "name":"t_autospin_settings", "debug":0,
+          "hin":{
+            "x":0, "y":0,
+            "width":207, "height":33, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":244, "y":35,
+          "out":"b_reset_0", "over":"b_reset_1", "soundOver":"btn_over",
+          "down":"b_reset_2", "block":"b_reset_3",
+          "type":"button", "name":"b_reset", "debug":0,
+          "label":{
+            "x":50, "y":10, "width":95, "height":25, "align":"center", "alignV":"middle",
+            "font":{"size":18, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+            "locConst":"autospin_reset", "type":"textBitmap", "debug":0,
+            "hin":{
+              "x":0, "y":1, "width":95, "height":25, "align":"center", "alignV":"middle", "fontWeight":500,
+              "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "locCheck":false,
+              "type":"textFont", "text":"", "debug":0
+            }
+          }
+        },
+
+        {
+          "x":6, "y":70,
+          "width":260, "height":34, "align":"left", "alignV":"middle",
+          "font":{"size":22, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_stop", "type":"textBitmap", "name":"t_autospin_stop", "debug":0,
+          "hin":{
+            "width":260, "height":34, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"22px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+
+        {
+          "x":5, "y":89, "soundOver":"btn_over",
+          "out":"b_check_enable_1", "type":"checkBox", "name":"cb_any", "debug":0,
+          "active":{
+            "out":"b_check_disable_1", "over":"b_check_disable_0",
+            "down":"b_check_disable_0", "block":"b_check_disable_2"
+          },
+          "noActive":{
+            "out":"b_check_enable_1", "over":"b_check_enable_0",
+            "down":"b_check_enable_0", "block":"b_check_enable_2"
+          }
+        },
+        {
+          "x":33, "y":97,
+          "width":229, "height":25, "align":"left", "alignV":"middle",
+          "font":{"size":16, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_if_1", "type":"textBitmap", "name":"t_autospin_if_1", "debug":0,
+          "hin":{
+            "width":229, "height":25, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+
+        {
+          "x":5, "y":116, "soundOver":"btn_over",
+          "out":"b_check_enable_1", "type":"checkBox", "name":"cb_free", "debug":0,
+          "active":{
+            "out":"b_check_disable_1", "over":"b_check_disable_0",
+            "down":"b_check_disable_0", "block":"b_check_disable_2"
+          },
+          "noActive":{
+            "out":"b_check_enable_1", "over":"b_check_enable_0",
+            "down":"b_check_enable_0", "block":"b_check_enable_2"
+          }
+        },
+        {
+          "x":33, "y":124,
+          "width":229, "height":25, "align":"left", "alignV":"middle",
+          "font":{"size":16, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_if_2", "type":"textBitmap", "name":"t_autospin_if_2", "debug":0,
+          "hin":{
+            "width":229, "height":25, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+
+        {
+          "x":5, "y":143, "soundOver":"btn_over",
+          "out":"b_check_enable_1", "type":"checkBox", "name":"cb_single", "debug":0,
+          "active":{
+            "out":"b_check_disable_1", "over":"b_check_disable_0",
+            "down":"b_check_disable_0", "block":"b_check_disable_2"
+          },
+          "noActive":{
+            "out":"b_check_enable_1", "over":"b_check_enable_0",
+            "down":"b_check_enable_0", "block":"b_check_enable_2"
+          }
+        },
+        {
+          "x":33, "y":151,
+          "width":229, "height":25, "align":"left", "alignV":"middle",
+          "font":{"size":16, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_if_3", "type":"textBitmap", "name":"t_autospin_if_3", "debug":0,
+          "hin":{
+            "width":229, "height":25, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":269, "y":143, "type":"sprite", "texture":"currency_field", "name":"s_currency_field_1", "debug":0
+        },
+        {
+          "x":328, "y":151,
+          "width":21, "height":40, "align":"left", "alignV":"middle", "fontWeight":600,
+          "fontSize":"16px", "fontName":"BebasFont", "padding":10, "fill":"0xA1A1A1", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "1stroke":"#1C1918", "1strokeThickness":2,
+          "locCheck":false,
+          "text":"€", "type":"textFont", "name":"t_cur_single", "debug":0
+        },
+
+        {
+          "x":5, "y":170, "soundOver":"btn_over",
+          "out":"b_check_enable_1", "type":"checkBox", "name":"cb_win", "debug":0,
+          "active":{
+            "out":"b_check_disable_1", "over":"b_check_disable_0",
+            "down":"b_check_disable_0", "block":"b_check_disable_2"
+          },
+          "noActive":{
+            "out":"b_check_enable_1", "over":"b_check_enable_0",
+            "down":"b_check_enable_0", "block":"b_check_enable_2"
+          }
+        },
+        {
+          "x":33, "y":178,
+          "width":229, "height":25, "align":"left", "alignV":"middle",
+          "font":{"size":16, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_if_4", "type":"textBitmap", "name":"t_autospin_if_4", "debug":0,
+          "hin":{
+            "width":229, "height":25, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":269, "y":171, "type":"sprite", "texture":"currency_field", "name":"s_currency_field_2", "debug":0
+        },
+        {
+          "x":328, "y":179,
+          "width":21, "height":40, "align":"left", "alignV":"middle", "fontWeight":600,
+          "fontSize":"16px", "fontName":"BebasFont", "padding":10, "fill":"0xA1A1A1", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "1stroke":"#1C1918", "1strokeThickness":2,
+          "locCheck":false,
+          "text":"€", "type":"textFont", "name":"t_cur_win", "debug":0
+        },
+
+        {
+          "x":5, "y":197, "type":"sprite", "texture":"b_check_disable_2", "name":"s_b_check_disable_2", "debug":0
+        },
+        {
+          "x":33, "y":205,
+          "width":229, "height":25, "align":"left", "alignV":"middle",
+          "font":{"size":16, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_if_5", "type":"textBitmap", "name":"t_autospin_if_5", "debug":0,
+          "hin":{
+            "width":229, "height":25, "align":"left", "alignV":"middle", "fontWeight":500,
+            "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":269, "y":197, "type":"sprite", "texture":"currency_field", "name":"s_currency_field_3", "debug":0
+        },
+        {
+          "x":328, "y":205,
+          "width":21, "height":40, "align":"left", "alignV":"middle", "fontWeight":600,
+          "fontSize":"16px", "fontName":"BebasFont", "padding":10, "fill":"0xA1A1A1", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+          "locCheck":false,
+          "text":"€", "type":"textFont", "name":"t_cur_lose", "debug":0
+        },
+
+        {
+          "x":5, "y":223,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_jack", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "soundOver":"btn_over",
+              "out":"b_check_enable_1", "type":"checkBox", "name":"cb_jack", "debug":0,
+              "active":{
+                "out":"b_check_disable_1", "over":"b_check_disable_0",
+                "down":"b_check_disable_0", "block":"b_check_disable_2"
+              },
+              "noActive":{
+                "out":"b_check_enable_1", "over":"b_check_enable_0",
+                "down":"b_check_enable_0", "block":"b_check_enable_2"
+              }
+            },
+            {
+              "x":28, "y":8,
+              "width":229, "height":25, "align":"left", "alignV":"middle",
+              "font":{"size":16, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"autospin_if_6", "type":"textBitmap", "name":"t_autospin_if_6", "debug":0,
+              "hin":{
+                "width":229, "height":25, "align":"left", "alignV":"middle", "fontWeight":500,
+                "fontSize":"16px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            }
+          ]
+        },
+
+        {
+          "x":175, "y":265,
+          "width":300, "height":40, "align":"center", "alignV":"middle",
+          "font":{"size":24, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_spins_number", "type":"textBitmap", "name":"t_autospin_spins_number", "debug":0,
+          "hin":{
+            "width":300, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+            "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":5, "y":299,
+          "out":"b_arrow_left_0", "over":"b_arrow_left_1",
+          "down":"b_arrow_left_2", "soundOver":"btn_over",
+          "type":"button", "name":"b_left", "debug":0
+        },
+        {
+          "x":329, "y":299,
+          "out":"b_arrow_right_0", "over":"b_arrow_right_1",
+          "down":"b_arrow_right_2", "soundOver":"btn_over",
+          "type":"button", "name":"b_right", "debug":0
+        },
+        {
+          "x":39, "y":291,
+          "out":"b_number_0", "over":"b_number_1", "soundOver":"btn_over",
+          "type":"button", "name":"b_number_0", "debug":0,
+          "label":{
+            "x":41, "y":29, "width":74, "height":40, "align":"center", "alignV":"middle",
+            "font":{"size":40, "name":"ui_number_font"}, "fill":"0x000000", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"5", "type":"textBitmap", "name":"t_", "debug":0
+          },
+          "entities":[
+            {
+              "x":41, "y":23, "anchor":0.5, "tint":"0x000000",
+              "deepPosition":false, "noCheckSize":true,
+              "type":"sprite", "texture":"infinity",
+              "name":"s_infinity", "debug":0
+            }
+          ]
+        },
+        {
+          "x":134, "y":291,
+          "out":"b_number_0", "over":"b_number_1", "soundOver":"btn_over",
+          "type":"button", "name":"b_number_1", "debug":0,
+          "label":{
+            "x":41, "y":29, "width":74, "height":40, "align":"center", "alignV":"middle",
+            "font":{"size":40, "name":"ui_number_font"}, "fill":"0x000000", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"5", "type":"textBitmap", "name":"t_", "debug":0
+          },
+          "entities":[
+            {
+              "x":41, "y":23, "anchor":0.5, "tint":"0x000000",
+              "deepPosition":false, "noCheckSize":true,
+              "type":"sprite", "texture":"infinity",
+              "name":"s_infinity", "debug":0
+            }
+          ]
+        },
+        {
+          "x":230, "y":291,
+          "out":"b_number_0", "over":"b_number_1", "soundOver":"btn_over",
+          "type":"button", "name":"b_number_2", "debug":0,
+          "label":{
+            "x":41, "y":29, "width":74, "height":40, "align":"center", "alignV":"middle",
+            "font":{"size":40, "name":"ui_number_font"}, "fill":"0x000000", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"5", "type":"textBitmap", "name":"t_", "debug":0
+          },
+          "entities":[
+            {
+              "x":41, "y":23, "anchor":0.5, "tint":"0x000000",
+              "deepPosition":false, "noCheckSize":true,
+              "type":"sprite", "texture":"infinity",
+              "name":"s_infinity", "debug":0
+            }
+          ]
+        },
+
+        {
+          "x":175, "y":355,
+          "width":300, "height":40, "align":"center", "alignV":"middle",
+          "font":{"size":18, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+          "locConst":"autospin_select", "type":"textBitmap", "name":"t_autospin_select", "debug":0,
+          "hin":{
+            "width":300, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+            "fontSize":"18px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+            "text":"", "type":"textFont", "debug":0
+          }
+        },
+
+        {
+          "x":260, "y":126, "align":"right", "alignV":"middle",
+          "checkFontSize":true, "checkLength":8, "sizeCoef":1.35,
+          "toUpperCase":false, "maxLength":12, "1placeholder":"0", "restrict":"0123456789",
+          "text":"0", "type":"textFontInput", "name":"t_input_win_one", "debug":0, "1substituteText":false,
+          "input":{
+            "textAlign":"right",
+            "vertical-align":"middle",
+            "fontFamily":"BebasFont",
+            "fontSize":"18px",
+            "padding":"10px",
+            "width":"53px",
+            "height":"30px",
+            "color":"#000000"
+          }
+        },
+        {
+          "x":260, "y":154, "align":"right", "alignV":"middle",
+          "checkFontSize":true, "checkLength":8, "sizeCoef":1.35,
+          "toUpperCase":false, "maxLength":12, "1placeholder":"0", "restrict":"0123456789",
+          "text":"0", "type":"textFontInput", "name":"t_input_win_limit", "debug":0, "1substituteText":false,
+          "input":{
+            "textAlign":"right",
+            "vertical-align":"middle",
+            "fontFamily":"BebasFont",
+            "fontSize":"18px",
+            "padding":"10px",
+            "width":"53px",
+            "height":"30px",
+            "color":"#000000"
+          }
+        },
+        {
+          "x":260, "y":180, "align":"right", "alignV":"middle",
+          "checkFontSize":true, "checkLength":8, "sizeCoef":1.35,
+          "toUpperCase":false, "maxLength":12, "1placeholder":"0", "restrict":"0123456789",
+          "text":"0", "type":"textFontInput", "name":"t_input_lose_limit", "debug":0, "1substituteText":false,
+          "input":{
+            "textAlign":"right",
+            "vertical-align":"middle",
+            "fontFamily":"BebasFont",
+            "fontSize":"18px",
+            "padding":"10px",
+            "width":"53px",
+            "height":"30px",
+            "color":"#000000"
+          }
+        }
+      ]
+    },
+    {
+      "x":1147, "y":184, "sdx":0.75, "sdy":0.5,
+      "type":"button", "out":"b_turbo_off_0", "over":"b_turbo_off_1", "soundOver":"btn_over",
+      "down":"b_turbo_off_2", "name":"b_super_turbo",
+      "states":{
+        "super":{
+          "out":"b_superturbo_0", "over":"b_superturbo_1",
+          "down":"b_superturbo_2"
+        },
+        "turbo":{
+          "out":"b_turbo_on_0", "over":"b_turbo_on_1",
+          "down":"b_turbo_on_2"
+        },
+        "off":{
+          "out":"b_turbo_off_0", "over":"b_turbo_off_1",
+          "down":"b_turbo_off_2"
+        }
+      },
+      "debug":0
+    },
+    {
+      "x":1098, "y":306, "sdx":0.75, "sdy":0.5,
+      "alpha":1, "type":"button", "out":"b_spin_0", "over":"b_spin_1", "soundOver":"btn_over",
+      "down":"b_spin_2", "block":"b_spin_3", "debug":0, "name":"b_start"
+    },
+
+    {
+      "x":1144, "y":487, "sdx":0.75, "sdy":0.5,
+      "alpha":1, "type":"button", "out":"b_auto_0", "over":"b_auto_1", "soundOver":"btn_over",
+      "down":"b_auto_2", "block":"b_auto_3", "debug":0, "name":"b_auto_start"
+    },
+
+    {
+      "x":1051, "y":642, "sdx":0.8, "sdy":1,
+      "type":"button", "out":"b_bet_up_0", "over":"b_bet_up_1", "soundOver":"btn_over",
+      "down":"b_bet_up_2", "block":"b_bet_up_3", "debug":0, "name":"b_bet_up"
+    },
+    {
+      "x":1051, "y":661, "sdx":0.8, "sdy":1,
+      "type":"button", "out":"b_bet_down_0", "over":"b_bet_down_1", "soundOver":"btn_over",
+      "down":"b_bet_down_2", "block":"b_bet_down_3", "debug":0, "name":"b_bet_down"
+    },
+
+    {
+      "x":0, "y":0, "sdx":0.5, "sdy":1, "portrait":false,
+      "interactiveChildren":true, "centered":false,
+      "construct_mode":0,
+      "type":"container", "name":"c_hint", "debug":0, "active":0,
+      "left_side":[4],
+      "entities":[
+        {
+          "x":430, "y":510,
+          "interactiveChildren":true, "centered":false,
+          "type":"container", "name":"c_panel_hint", "debug":0, "active":1,
+          "entities":[
+            {
+              "x":264, "y":-76, "scaleX":1,
+              "right":[264, -76], "scale_right":-1,
+              "left":[-264, -76], "scale_left":1,
+              "type":"sprite", "texture":"panel_hint", "name":"s_panel_hint", "debug":0, "alpha":1
+            },
+            {
+              "x":0, "y":0, "anchor":0.5, "type":"sprite", "texture":"symb_4", "name":"s_symbol", "debug":0
+            },
+            {
+              "x":0, "y":0,
+              "right":[107, 0],
+              "left":[-255, 0],
+              "interactiveChildren":true, "centered":false,
+              "type":"container", "name":"c_data_3", "debug":0, "active":1,
+              "entities":[
+                {
+                  "x":0, "y":-38,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x5", "type":"textBitmap", "name":"t_5", "debug":0
+                },
+                {
+                  "x":0, "y":-4,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x4", "type":"textBitmap", "name":"t_4", "debug":0
+                },
+                {
+                  "x":0, "y":29,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x3", "type":"textBitmap", "name":"t_3", "debug":0
+                },
+                {
+                  "x":146, "y":-38,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_5", "debug":0
+                },
+                {
+                  "x":146, "y":-4,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_4", "debug":0
+                },
+                {
+                  "x":146, "y":29,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_3", "debug":0
+                }
+              ]
+            },
+            {
+              "x":303, "y":0,
+              "right":[107, 0],
+              "left":[-255, 0],
+              "interactiveChildren":true, "centered":false,
+              "type":"container", "name":"c_data_4", "debug":0, "active":1,
+              "entities":[
+                {
+                  "x":0, "y":-56,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x5", "type":"textBitmap", "name":"t_5", "debug":0
+                },
+                {
+                  "x":0, "y":-22,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x4", "type":"textBitmap", "name":"t_4", "debug":0
+                },
+                {
+                  "x":0, "y":13,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x3", "type":"textBitmap", "name":"t_3", "debug":0
+                },
+                {
+                  "x":0, "y":48,
+                  "width":56, "height":40, "align":"left", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_yellow_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"x2", "type":"textBitmap", "name":"t_3", "debug":0
+                },
+                {
+                  "x":146, "y":-56,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_5", "debug":0
+                },
+                {
+                  "x":146, "y":-22,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_4", "debug":0
+                },
+                {
+                  "x":146, "y":13,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_3", "debug":0
+                },
+                {
+                  "x":146, "y":48,
+                  "width":114, "height":40, "align":"right", "alignV":"middle",
+                  "font":{"size":30, "name":"paytable_white_font"}, "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"0", "type":"textNumberBitmap", "name":"_2", "debug":0
+                }
+              ]
+            }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "x":0, "y":0,
+      "m_x":0, "m_y":0,
+      "v_x":0, "v_y":0,
+      "1width":1280, "1height":720,
+      "type":"sprite", "texture":"King Of Pari match 2_main4.png",
+      "v_texture":"mobile_v", "name":"s_preview", "debug":0, "active":0
+    },
+    {
+      "x":0, "y":0, "noCheckSize":true,
+      "width":100, "height":100,
+      "color":"0x000000", "alpha":0.5,
+      "type":"rect", "name":"r_tint", "debug":0
+    },
+    {
+      "x":640, "y":618, "sdx":0.5, "sdy":1,
+      "debug":0, "autoStart":false, "scaleMod":1,
+      "name":"re_coins", "interactiveChildren":true,
+      "revoltName":"coins", "type":"revoltEmmiter"
+    },
+    {
+      "x":640, "y":360, "sdx":0.5, "sdy":0.5, "deepPosition":true,
+      "-active_debug":"epic:5000", "debug":0, "active":1,
+      "type":"container", "name":"c_win_message",
+      "time_show_txt":0.5,
+      "time_hide_mess":0.25,
+      "hide_scale":3,
+      "screen_delay":1,
+      "screen_turbo_delay":0.2,
+      "screen_big_turbo_delay":1.5,
+      "bonus_delay":2.5,
+      "skip_win_time":0.2,
+      "skip_big_win_time":1.2,
+      "skip_bigWin_delay":2,
+      "ease":"circ.in",
+      "pos":{
+        "txt":{
+          "big":{"x":0, "y":85, "m_time":0.5},
+          "none":{"x":0, "y":14}
+        },
+        "t_little":{"normal":{"x":0, "y":-11, "width":812}, "free":{"x":0, "y":-298, "width":457}}
+      },
+      "spine":{
+        "x":0, "y":36, "dx":0, "dy":0, "speed":1,
+        "play":false, "playLoop":false,
+        "textures":"win", "custom_a_name":"1big_win", "name":"a_BIG_Win",
+        "show_big":"1big_win",
+        "show_mega":"3mega_win",
+        "show_epic":"5epic_win",
+        "loop_big":"2big_idle",
+        "loop_mega":"4mega_idle",
+        "loop_epic":"6epic_idle",
+        "type":"actorSpine", "debug":0
+      },
+      "shine":{
+        "x":0, "y":0, "dx":0, "dy":0, "speed":1,
+        "deepPosition":false, "noCheckSize":true,
+        "play":false, "playLoop":false, "destroyOnKill":true,
+        "textures":"win_number_fx", "coin_animation":"win_number_fx", "custom_a_name":"win_number_fx_idle", "name":"a_win_number_fx",
+        "type":"actorSpine", "debug":0
+      },
+      "entities":[
+        {
+          "x":0, "y":-518,
+          "v_x":0, "v_y":-790, "sdx":0, "sdy":-0.5,
+          "debug":0, "active":1, "autoStart":false, "scaleMod":1,
+          "name":"re_coins_top", "interactiveChildren":true,
+          "revoltName":"coins_top", "type":"revoltEmmiter"
+        },
+        {
+          "x":0, "y":0,
+          "deepPosition":false, "noCheckSize":true,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_shine", "debug":0
+        },
+        {
+          "x":0, "y":0,
+          "deepPosition":false, "noCheckSize":true,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_label", "debug":0
+        },
+        {
+          "x":0, "y":0, "-noCheckSize":true,
+          "width":817, "height":220, "align":"center", "alignV":"middle",
+          "font":{"size":96, "name":"big_win_font"}, "name":"t_win", "text":"0",
+          "letterSpacing":0, "checkFontSize":true,
+          "type":"textNumberBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":0, "y":0, "-noCheckSize":true,
+          "width":449, "height":94, "align":"center", "alignV":"middle",
+          "font":{"size":83, "name":"big_win_font"}, "name":"t_win_little", "text":"15.00",
+          "letterSpacing":0, "checkFontSize":true,
+          "type":"textNumberBitmap", "oneLine":true, "debug":0
+        }
+      ]
+    },
+    {
+      "x":1144, "y":487, "sdx":0.75, "sdy":0.5,
+      "type":"button", "out":"b_stop_0", "over":"b_stop_1", "soundOver":"btn_over",
+      "down":"b_stop_2", "block":"b_stop_3", "debug":0, "name":"b_auto_stop",
+      "label":{
+        "x":68, "y":70, "width":74, "height":72, "align":"center", "alignV":"middle",
+        "font":{"size":25, "name":"ui_number_font"}, "fill":"0x000000", "letterSpacing":0,
+        "block":"0x403e3e", "active":"0x000000",
+        "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"5", "type":"textBitmap", "name":"t_", "debug":0
+      },
+      "entities":[
+        {
+          "x":68, "y":66, "anchor":0.5, "tint":"0x000000", "scale":0.9,
+          "deepPosition":false, "noCheckSize":true,
+          "type":"sprite", "texture":"infinity",
+          "name":"s_infinity", "debug":0
+        }
+      ]
+    },
+    {
+      "x":1098, "y":306, "sdx":0.75, "sdy":0.5,
+      "type":"button", "out":"b_skip_0", "over":"b_skip_1", "soundOver":"btn_over",
+      "down":"b_skip_2", "block":"b_skip_3", "debug":0, "name":"b_stop"
+    },
+
+    {
+      "x":0, "y":0, "noCheckSize":true,
+      "width":100, "height":100,
+      "color":"0xffffff", "alpha":0.25,
+      "tween_time":0.08, "ease":"none",
+      "type":"rect", "name":"r_blink_skip", "debug":0
+    },
+
+    {
+      "x":1251, "y":167, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_eng_0", "over":"b_eng_1", "soundOver":"btn_over",
+      "down":"b_eng_2", "block":"b_eng_3", "name":"b_loc",
+      "states":{
+        "eng":{"out":"b_eng_0", "over":"b_eng_1", "down":"b_eng_2", "block":"b_eng_3"},
+        "fra":{"out":"b_fra_0", "over":"b_fra_1", "down":"b_fra_2", "block":"b_fra_3"},
+        "deu":{"out":"b_deu_0", "over":"b_deu_1", "down":"b_deu_2", "block":"b_deu_3"},
+        "ita":{"out":"b_ita_0", "over":"b_ita_1", "down":"b_ita_2", "block":"b_ita_3"},
+        "nor":{"out":"b_nor_0", "over":"b_nor_1", "down":"b_nor_2", "block":"b_nor_3"},
+        "prt":{"out":"b_prt_0", "over":"b_prt_1", "down":"b_prt_2", "block":"b_prt_3"},
+        "rus":{"out":"b_rus_0", "over":"b_rus_1", "down":"b_rus_2", "block":"b_rus_3"},
+        "esp":{"out":"b_esp_0", "over":"b_esp_1", "down":"b_esp_2", "block":"b_esp_3"},
+        "swe":{"out":"b_swe_0", "over":"b_swe_1", "down":"b_swe_2", "block":"b_swe_3"},
+        "tur":{"out":"b_trk_0", "over":"b_trk_1", "down":"b_trk_2", "block":"b_trk_3"},
+        "gb":{"out":"b_gb_0", "over":"b_gb_1", "down":"b_gb_2", "block":"b_gb_3"},
+        "can":{"out":"b_can_0", "over":"b_can_1", "down":"b_can_2", "block":"b_can_3"},
+        "jpn":{"out":"b_jpn_0", "over":"b_jpn_1", "down":"b_jpn_2", "block":"b_jpn_3"},
+        "ukr":{"out":"b_ukr_0", "over":"b_ukr_1", "down":"b_ukr_2", "block":"b_ukr_3"},
+        "pol":{"out":"b_pl_0", "over":"b_pl_1", "down":"b_pl_2", "block":"b_pl_3"},
+        "ron":{"out":"b_ro_0", "over":"b_ro_1", "down":"b_ro_2", "block":"b_ro_3"},
+        "gre":{"out":"b_gre_0", "over":"b_gre_1", "down":"b_gre_2", "block":"b_gre_3"},
+        "zh_cn":{"out":"b_cn_0", "over":"b_cn_1", "down":"b_cn_2", "block":"b_cn_3"},
+        "zh_tw":{"out":"b_tw_0", "over":"b_tw_1", "down":"b_tw_2", "block":"b_tw_3"},
+        "hin":{"out":"b_hin_0", "over":"b_hin_1", "down":"b_hin_2", "block":"b_hin_3"},
+        "kor":{"out":"b_ko_0", "over":"b_ko_1", "down":"b_ko_2", "block":"b_ko_3"},
+        "ind":{"out":"b_ind_0", "over":"b_ind_1", "down":"b_ind_2", "block":"b_ind_3"},
+        "tha":{"out":"b_tha_0", "over":"b_tha_1", "down":"b_tha_2", "block":"b_tha_3"},
+        "vie":{"out":"b_vie_0", "over":"b_vie_1", "down":"b_vie_2", "block":"b_vie_3"}
+
+      },
+      "debug":0
+    },
+    {
+      "x":1251, "y":101, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_paytable_1", "over":"b_paytable_2", "soundOver":"btn_over",
+      "down":"b_paytable_0", "block":"b_paytable_3", "debug":0, "name":"b_pay"
+    },
+    {
+      "x":1251, "y":134, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_history_1", "over":"b_history_2", "soundOver":"btn_over",
+      "down":"b_history_0", "block":"b_history_3", "debug":0, "name":"b_history"
+    },
+    {
+      "x":1251, "y":192, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_setting_1", "over":"b_setting_2", "soundOver":"btn_over",
+      "down":"b_setting_0", "block":"b_setting_3", "debug":0, "name":"b_setting"
+    },
+    {
+      "x":1251, "y":253, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_home_1", "over":"b_home_2", "soundOver":"btn_over",
+      "down":"b_home_0", "block":"b_home_3", "debug":0, "name":"b_home"
+    },
+    {
+      "x":1243, "y":68, "sdx":1.0, "sdy":0.5,
+      "width":41, "height":213,
+      "color":"0x000000", "alpha":1.0,
+      "type":"rect", "name":"r_hint_menu", "debug":0
+    },
+    {
+      "x":1263, "y":80, "anchor":0.5, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_drop_menu_0", "over":"b_drop_menu_1",
+      "down":"b_drop_menu_2", "block":"b_drop_menu_3", "name":"b_menu",
+      "states":{
+        "on":{
+          "out":"b_drop_menu_open_1", "over":"b_drop_menu_open_0",
+          "down":"b_drop_menu_open_0"
+        },
+        "off":{
+          "out":"b_drop_menu_1", "over":"b_drop_menu_0",
+          "down":"b_drop_menu_0"
+        }
+      }, "soundOver":"btn_over",
+      "debug":0
+    },
+    {
+      "x":1251, "y":37, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_sound_on_0", "over":"b_sound_on_1",
+      "down":"b_sound_on_2", "block":"b_sound_on_3", "name":"b_audio",
+      "states":{
+        "off":{
+          "out":"b_sound_off_1", "over":"b_sound_off_0",
+          "down":"b_sound_off_0"
+        },
+        "half":{
+          "out":"b_sound_half_1", "over":"b_sound_half_0",
+          "down":"b_sound_half_0"
+        },
+        "on":{
+          "out":"b_sound_on_1", "over":"b_sound_on_0",
+          "down":"b_sound_on_0"
+        }
+      }, "soundOver":"btn_over",
+      "debug":0
+    },
+    {
+      "x":1248, "y":2, "sdx":1.0, "sdy":0.5,
+      "type":"button", "out":"b_fullscreen_on_0", "over":"b_fullscreen_on_1",
+      "down":"b_fullscreen_on_2", "block":"b_fullscreen_on_3", "name":"b_fullscreen",
+      "states":{
+        "on":{
+          "out":"b_fullscreen_on_1", "over":"b_fullscreen_on_0",
+          "down":"b_fullscreen_on_0"
+        },
+        "off":{
+          "out":"b_fullscreen_off_1", "over":"b_fullscreen_off_0",
+          "down":"b_fullscreen_off_0"
+        }
+      }, "soundOver":"btn_over",
+      "debug":0
+    },
+
+    {
+      "x":0, "y":0, "sdx":0.5, "sdy":0.5,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_rich", "debug":0, "deepPosition":false,
+      "debugStart":0, "debugGame":0, "debugEnd":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":1000, "height":1000,
+          "color":"0x000000", "alpha":0.001,
+          "type":"rect", "name":"r_tint", "debug":0
+        },
+        {
+          "x":381, "y":203,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_start", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"panel_freespins_start", "name":"s_panel", "debug":0
+            },
+            {
+              "x":261, "y":35,
+              "width":500, "height":80, "align":"center", "alignV":"middle",
+              "font":{"size":44, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_start_1", "type":"textBitmap", "name":"t_rSpins_start_1", "debug":0,
+              "hin":{
+                "width":500, "height":80, "align":"center", "alignV":"middle", "fontWeight":500,
+                "fontSize":"44px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":204, "y":106,
+              "width":184, "height":40, "align":"right", "alignV":"middle",
+              "font":{"size":24, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_start_2", "type":"textBitmap", "name":"t_rSpins_start_2", "debug":0,
+              "hin":{
+                "width":184, "height":40, "align":"right", "alignV":"middle", "fontWeight":500,
+                "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":260, "y":111,
+              "width":97, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":37, "name":"ui_number_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+              "text":"0", "type":"textBitmap", "name":"t_count", "debug":0
+            },
+            {
+              "x":318, "y":106,
+              "width":188, "height":40, "align":"left", "alignV":"middle",
+              "font":{"size":24, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_start_3", "type":"textBitmap", "name":"t_rSpins_start_3", "debug":0,
+              "hin":{
+                "width":188, "height":40, "align":"left", "alignV":"middle", "fontWeight":500,
+                "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":303, "y":144,
+              "width":278, "height":40, "align":"right", "alignV":"middle",
+              "font":{"size":24, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_start_4", "type":"textBitmap", "name":"t_rSpins_start_4", "debug":0,
+              "hin":{
+                "width":278, "height":40, "align":"right", "alignV":"middle", "fontWeight":500,
+                "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":324, "y":145,
+              "width":16, "height":40, "align":"left", "alignV":"middle",
+              "font":{"size":21, "name":"ui_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "text":"X", "type":"textBitmap", "name":"t_x", "debug":0
+            },
+            {
+              "x":356, "y":150,
+              "width":90, "height":40, "align":"left", "alignV":"middle",
+              "font":{"size":37, "name":"ui_number_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+              "text":"0", "type":"textBitmap", "name":"t_multi", "debug":0
+            },
+            {
+              "x":260, "y":184,
+              "width":500, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":24, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_start_5", "type":"textBitmap", "name":"t_rSpins_start_5", "debug":0,
+              "hin":{
+                "width":500, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+                "fontSize":"24px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":261, "y":264, "anchor":0.5, "soundOver":"btn_over",
+              "out":"b_ok_1", "over":"b_ok_2", "down":"b_ok_2",
+              "type":"buttonMobile", "name":"b_yes", "debug":0,
+              "overScale":1.0, "downScale":0.9,
+              "entities":[
+                {
+                  "x":1, "y":-11,
+                  "width":211, "height":57, "align":"center", "alignV":"middle",
+                  "font":{"size":30, "name":"ui_font"}, "fill":"0x000000", "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+                  "locConst":"rSpins_start_6", "type":"textBitmap", "name":"t_label", "debug":0,
+                  "hin":{
+                    "width":211, "height":57, "align":"center", "alignV":"middle", "fontWeight":500,
+                    "fontSize":"30px", "fontName":"Mangal", "padding":10, "fill":"0x000000", "letterSpacing":0,
+                    "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                    "text":"", "type":"textFont", "debug":0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x":933, "y":0, "scale":1, "sdx":-0.5,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_game", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"panel_freespins_info", "name":"s_panel", "debug":0
+            },
+
+            {
+              "x":80, "y":12,
+              "width":140, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":20, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_game_1", "type":"textBitmap", "name":"t_rSpins_game_1", "debug":0,
+              "hin":{
+                "width":140, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+                "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":79, "y":50,
+              "width":140, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":35, "name":"ui_number_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+              "text":"0", "type":"textBitmap", "name":"t_count", "debug":0
+            },
+
+            {
+              "x":232, "y":12,
+              "width":140, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":20, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_game_2", "type":"textBitmap", "name":"t_rSpins_game_2", "debug":0,
+              "hin":{
+                "width":140, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+                "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":233, "y":41,
+              "width":140, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":29, "name":"ui_number_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+              "text":"0.00", "type":"textNumberBitmap", "name":"t_cash", "debug":0
+            },
+            {
+              "x":232, "y":60,
+              "width":140, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+              "fontSize":"20px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+              "locCheck":false,
+              "text":"€", "type":"textFont", "name":"t_currency", "debug":0
+            },
+
+            {
+              "x":152, "y":85,
+              "width":143, "height":40, "align":"right", "alignV":"middle",
+              "font":{"size":20, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_game_4", "type":"textBitmap", "name":"t_rSpins_game_4", "debug":0,
+              "hin":{
+                "width":143, "height":40, "align":"right", "alignV":"middle", "fontWeight":500,
+                "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":166, "y":85,
+              "width":16, "height":40, "align":"left", "alignV":"middle",
+              "font":{"size":18, "name":"ui_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "text":"X", "type":"textBitmap", "name":"t_x", "debug":0
+            },
+            {
+              "x":185, "y":90,
+              "width":90, "height":40, "align":"left", "alignV":"middle",
+              "font":{"size":26, "name":"ui_number_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+              "text":"0", "type":"textBitmap", "name":"t_multi", "debug":0
+            }
+          ]
+        },
+        {
+          "x":472, "y":260,
+          "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+          "type":"container", "name":"c_end", "debug":0,
+          "entities":[
+            {
+              "x":0, "y":0, "type":"sprite", "texture":"panel_freespins_end", "name":"s_panel", "debug":0
+            },
+            {
+              "x":167, "y":29,
+              "width":314, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":28, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_end_1", "type":"textBitmap", "name":"t_rSpins_end_1", "debug":0,
+              "hin":{
+                "width":314, "height":40, "align":"center", "alignV":"middle", "fontWeight":500,
+                "fontSize":"28px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":122, "y":74,
+              "width":112, "height":40, "align":"right", "alignV":"middle",
+              "font":{"size":22, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+              "locConst":"rSpins_end_2", "type":"textBitmap", "name":"t_rSpins_end_2", "debug":0,
+              "hin":{
+                "width":112, "height":40, "align":"right", "alignV":"middle", "fontWeight":500,
+                "fontSize":"22px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+                "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                "text":"", "type":"textFont", "debug":0
+              }
+            },
+            {
+              "x":177, "y":79,
+              "width":100, "height":40, "align":"center", "alignV":"middle",
+              "font":{"size":32, "name":"ui_number_font"}, "fill":"0xff5e06", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+              "text":"0.00", "type":"textNumberBitmap", "name":"t_cash", "debug":0
+            },
+            {
+              "x":232, "y":76,
+              "width":140, "height":40, "align":"left", "alignV":"middle", "fontWeight":500,
+              "fontSize":"22px", "fontName":"BebasFont", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+              "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+              "locCheck":false,
+              "text":"€", "type":"textFont", "name":"t_currency", "debug":0
+            },
+
+            {
+              "x":166, "y":147, "anchor":0.5, "soundOver":"btn_over",
+              "out":"b_ok_1", "over":"b_ok_2", "down":"b_ok_2",
+              "type":"buttonMobile", "name":"b_ok", "debug":0,
+              "overScale":1.0, "downScale":0.9,
+              "entities":[
+                {
+                  "x":1, "y":-11,
+                  "width":211, "height":57, "align":"center", "alignV":"middle",
+                  "font":{"size":30, "name":"ui_font"}, "fill":"0x000000", "letterSpacing":0,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+                  "locConst":"rSpins_end_4", "type":"textBitmap", "name":"t_label", "debug":0,
+                  "hin":{
+                    "width":211, "height":57, "align":"center", "alignV":"middle", "fontWeight":500,
+                    "fontSize":"30px", "fontName":"Mangal", "padding":10, "fill":"0x000000", "letterSpacing":0,
+                    "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+                    "text":"", "type":"textFont", "debug":0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "x":0, "y":0, "jpContent":true,
+      "debug":0, "active":10,
+      "type":"container", "name":"c_jack_message",
+
+      "show_debug":0, "debug_win":123151560,
+
+      "time_on_screen":0.7,
+      "time_show":0.7,
+      "time_hide":0.25,
+      "hide_scale":3,
+
+      "label_loop":0.8,
+
+      "ease":"circ.in",
+
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":1280, "height":720,
+          "color":"0x000000", "alpha":0.7,
+          "type":"rect", "name":"r_tint", "debug":0
+        },
+        {
+          "x":623, "y":225, "scale":0.67, "dx":0, "dy":0, "speed":1, "sdx":0.5, "sdy":0.5,
+          "play":false, "playLoop":false,
+          "anim_idle":"idle", "anim_start":"start",
+          "textures":"chestbox_win", "custom_a_name":"start", "name":"a_chest",
+          "type":"actorSpine", "debug":0
+        },
+        {
+          "x":640, "y":554, "width":996, "height":316, "align":"center", "alignV":"middle", "sdx":0.5, "sdy":0.5,
+          "font":{"size":115, "name":"jackpot_font"}, "name":"t_win", "text":"15000",
+          "letterSpacing":0, "checkFontSize":true,
+          "type":"textNumberBitmap", "oneLine":true, "debug":0
+        },
+        {
+          "x":640, "y":652, "sdx":0.5, "sdy":0.5,
+          "width":800, "height":40, "align":"center", "alignV":"middle",
+          "font":{"size":60, "name":"jackpot_title_70"}, "!fill":"0x000001", "letterSpacing":0,
+          "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+          "loc_data":{
+            "maxi":"history_action_maxi",
+            "midi":"history_action_midi",
+            "mini":"history_action_mini"
+          },
+          "locConst":"history_action_maxi", "type":"textBitmap", "name":"t_label_loc", "debug":0,
+          "hin":{
+            "v_width":173, "v_height":20, "v_fontSize":22,
+            "width":203, "height":40, "align":"center", "alignV":"middle",
+            "fontSize":"56px", "fontName":"Mangal", "letterSpacing":0,
+            "dropShadow":true,
+            "dropShadowAngle":1.6,
+            "dropShadowBlur":1,
+            "dropShadowDistance":1,
+            "fill":[
+              "#e5bb2d",
+              "#fff58a",
+              "#ffc02e"
+            ],
+            "fillGradientStops":[
+              0.5,
+              0.4,
+              0.4
+            ],
+            "lineJoin":"bevel",
+            "miterLimit":8,
+            "stroke":"#ce442c",
+            "strokeThickness":2,
+            "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+            "type":"textFont", "debug":0
+          }
+        }
+      ]
+    },
+
+    {
+      "x":0, "y":0,
+      "deepPosition":true, "noCheckSize":false,
+      "interactiveChildren":true, "centered":false,
+      "type":"container", "name":"c_tour_layer", "debug":0
+    },
+    {
+      "x":0, "y":0,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"c_pay_layer", "debug":0,
+      "entities":[
+      ]
+    },
+
+    {
+      "x":310, "y":688, "sdx":0.5, "sdy":1,
+      "type":"sprite", "texture":"panel_bot", "name":"s_panel_bot", "debug":0, "alpha":1
+    },
+    {
+      "x":228, "y":703, "sdx":0.25, "sdy":1,
+      "width":148, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":22, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+      "locConst":"pl_for_fun", "type":"textBitmap", "name":"t_play_for_fun", "debug":0,
+      "hin":{
+        "width":148, "height":40, "align":"center", "alignV":"middle",
+        "fontSize":"22px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+        "checkFontSize":true, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":1,
+        "locCheck":false, "text":"", "type":"textFont", "debug":0
+      }
+    },
+    {
+      "x":1228, "y":709, "sdx":1.0, "sdy":1,
+      "width":94, "height":40, "align":"center", "alignV":"middle",
+      "font":{"size":30, "name":"ui_stroke_number_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+      "text":"18:44", "type":"textBitmap", "name":"t_clock", "debug":0
+    },
+
+    {
+      "x":320, "y":703, "sdx":0.5, "sdy":1,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"t_credit", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":235, "height":40, "align":"right", "alignV":"middle",
+          "font":{"size":20, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+          "locConst":"gui_creditTitle+':'", "type":"textBitmap", "name":"t_label", "debug":0,
+          "hin":{
+            "width":235, "height":40, "align":"right", "alignV":"middle",
+            "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":2,
+            "locCheck":false, "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":2, "y":4,
+          "width":235, "height":40, "align":"left", "alignV":"middle",
+          "font":{"size":20, "name":"ui_stroke_number_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+          "text":"43838.53", "type":"textNumberBitmap", "name":"t_value", "debug":0
+        }
+      ],
+      "align":{"x":0, "y":-1, "rect":{"width":244, "height":50}, "edit":false}
+    },
+    {
+      "x":640, "y":703, "sdx":0.5, "sdy":1,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"t_bet", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":235, "height":40, "align":"right", "alignV":"middle",
+          "font":{"size":20, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+          "locConst":"gui_betTitle+':'", "type":"textBitmap", "name":"t_label", "debug":0,
+          "hin":{
+            "width":235, "height":40, "align":"right", "alignV":"middle",
+            "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":2,
+            "locCheck":false, "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":2, "y":4,
+          "width":235, "height":40, "align":"left", "alignV":"middle",
+          "font":{"size":20, "name":"ui_stroke_number_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+          "text":"43838.53", "type":"textNumberBitmap", "name":"t_value", "debug":0
+        }
+      ],
+      "align":{"x":0.5, "y":-1, "rect":{"width":160, "height":50}, "edit":false}
+    },
+    {
+      "x":951, "y":703, "sdx":0.5, "sdy":1,
+      "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+      "type":"container", "name":"t_win", "debug":0,
+      "entities":[
+        {
+          "x":0, "y":0,
+          "width":235, "height":40, "align":"right", "alignV":"middle",
+          "font":{"size":20, "name":"ui_stroke_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":true, "-deepPosition":true,
+          "locConst":"gui_winTitle+':'", "type":"textBitmap", "name":"t_label", "debug":0,
+          "hin":{
+            "width":235, "height":40, "align":"right", "alignV":"middle",
+            "fontSize":"20px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+            "checkFontSize":false, "oneLine":true, "toUpperCase":false, "stroke":"#1C1918", "strokeThickness":2,
+            "locCheck":false, "text":"", "type":"textFont", "debug":0
+          }
+        },
+        {
+          "x":2, "y":4,
+          "width":235, "height":40, "align":"left", "alignV":"middle",
+          "font":{"size":20, "name":"ui_stroke_number_font"}, "fill":"0xffffff", "letterSpacing":0,
+          "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false, "-deepPosition":true,
+          "text":"43838.53", "type":"textNumberBitmap", "name":"t_value", "debug":0
+        }
+      ],
+      "align":{"x":1, "y":-1, "rect":{"width":235, "height":50}, "edit":false}
+    },
+
+    {
+      "x":3, "y":10, "sdx":0.0, "sdy":0.5,
+      "width":157, "height":40, "align":"left", "alignV":"middle",
+      "font":{"size":12, "name":"paytable_number_1_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":false, "oneLine":true, "toUpperCase":false, "locCheck":false,
+      "text":"0", "type":"textBitmap", "name":"t_round_id", "debug":0
+    },
+
+    {
+      "x":0, "y":0,
+      "interactiveChildren":true, "centered":false,
+      "type":"container", "name":"c_free_layer", "debug":0,
+      "entities":[
+
+      ]
+    },
+    {
+      "x":0, "y":0,
+      "interactiveChildren":true, "centered":false,
+      "type":"container", "name":"c_windows_layer", "debug":0,
+      "entities":[
+
+      ]
+    },
+    {
+      "x":0, "y":0,
+      "interactiveChildren":true, "centered":false,
+      "type":"container", "name":"c_intro_layer", "debug":0,
+      "entities":[
+
+      ]
+    }
+  ]
+}

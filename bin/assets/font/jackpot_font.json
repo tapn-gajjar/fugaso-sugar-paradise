@@ -1,0 +1,108 @@
+{"frames": {
+
+"0":
+{
+	"frame": {"x":1,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"1":
+{
+	"frame": {"x":796,"y":1,"w":61,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":61,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"2":
+{
+	"frame": {"x":81,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"3":
+{
+	"frame": {"x":161,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"4":
+{
+	"frame": {"x":241,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"5":
+{
+	"frame": {"x":321,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"6":
+{
+	"frame": {"x":401,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"7":
+{
+	"frame": {"x":721,"y":1,"w":73,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":73,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"8":
+{
+	"frame": {"x":481,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"9":
+{
+	"frame": {"x":561,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+},
+"dot":
+{
+	"frame": {"x":859,"y":1,"w":33,"h":33},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":105,"w":33,"h":33},
+	"sourceSize": {"w":33,"h":140}
+},
+"€":
+{
+	"frame": {"x":641,"y":1,"w":78,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":140},
+	"sourceSize": {"w":78,"h":140}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "jackpot_font.png",
+	"format": "RGBA8888",
+	"size": {"w":893,"h":142},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:85e8a0ea863df52058af263342875667:d41d5a4975fc4c12251cc7261c26d106:c3f4e0d404a3ded18fce5a523df07802$"
+}
+}

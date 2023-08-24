@@ -1,0 +1,271 @@
+{"frames": {
+
+"mc_coin_gold_big/coin_gold_big_00":
+{
+	"frame": {"x":1,"y":1,"w":122,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":122,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_01":
+{
+	"frame": {"x":129,"y":1,"w":122,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":122,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_02":
+{
+	"frame": {"x":129,"y":373,"w":119,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":7,"w":119,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_03":
+{
+	"frame": {"x":1,"y":731,"w":113,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":7,"w":113,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_04":
+{
+	"frame": {"x":129,"y":955,"w":106,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":7,"w":106,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_05":
+{
+	"frame": {"x":129,"y":1063,"w":93,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":7,"w":93,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_06":
+{
+	"frame": {"x":1,"y":1253,"w":77,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":7,"w":77,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_07":
+{
+	"frame": {"x":1,"y":1410,"w":57,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":7,"w":57,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_08":
+{
+	"frame": {"x":127,"y":1528,"w":55,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":7,"w":55,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_09":
+{
+	"frame": {"x":129,"y":1253,"w":76,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":7,"w":76,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_10":
+{
+	"frame": {"x":1,"y":1064,"w":93,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":93,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_11":
+{
+	"frame": {"x":1,"y":846,"w":108,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":108,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_12":
+{
+	"frame": {"x":129,"y":731,"w":113,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":113,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_13":
+{
+	"frame": {"x":129,"y":494,"w":119,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":119,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_14":
+{
+	"frame": {"x":1,"y":125,"w":122,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":122,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_15":
+{
+	"frame": {"x":129,"y":125,"w":122,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":122,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_16":
+{
+	"frame": {"x":1,"y":249,"w":122,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":122,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_17":
+{
+	"frame": {"x":1,"y":373,"w":120,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":120,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_18":
+{
+	"frame": {"x":1,"y":615,"w":114,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":114,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_19":
+{
+	"frame": {"x":129,"y":846,"w":107,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":7,"w":107,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_20":
+{
+	"frame": {"x":1,"y":1159,"w":92,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":7,"w":92,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_21":
+{
+	"frame": {"x":129,"y":1331,"w":76,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":7,"w":76,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_22":
+{
+	"frame": {"x":129,"y":1409,"w":58,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":7,"w":58,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_23":
+{
+	"frame": {"x":127,"y":1469,"w":57,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":7,"w":57,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_24":
+{
+	"frame": {"x":1,"y":1332,"w":76,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":7,"w":76,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_25":
+{
+	"frame": {"x":129,"y":1158,"w":93,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":93,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_26":
+{
+	"frame": {"x":1,"y":956,"w":106,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":7,"w":106,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_27":
+{
+	"frame": {"x":129,"y":615,"w":114,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":114,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_28":
+{
+	"frame": {"x":1,"y":495,"w":118,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":118,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"mc_coin_gold_big/coin_gold_big_29":
+{
+	"frame": {"x":129,"y":249,"w":122,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":7,"w":122,"h":126},
+	"sourceSize": {"w":140,"h":140}
+},
+"smoke":
+{
+	"frame": {"x":1,"y":1469,"w":123,"h":124},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":124},
+	"sourceSize": {"w":123,"h":124}
+},
+"spark":
+{
+	"frame": {"x":127,"y":1585,"w":6,"h":6},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":6,"h":6},
+	"sourceSize": {"w":8,"h":8}
+}},
+"animations": {
+	"mc_coin_gold_big/coin_gold_big": ["mc_coin_gold_big/coin_gold_big_00","mc_coin_gold_big/coin_gold_big_01","mc_coin_gold_big/coin_gold_big_02","mc_coin_gold_big/coin_gold_big_03","mc_coin_gold_big/coin_gold_big_04","mc_coin_gold_big/coin_gold_big_05","mc_coin_gold_big/coin_gold_big_06","mc_coin_gold_big/coin_gold_big_07","mc_coin_gold_big/coin_gold_big_08","mc_coin_gold_big/coin_gold_big_09","mc_coin_gold_big/coin_gold_big_10","mc_coin_gold_big/coin_gold_big_11","mc_coin_gold_big/coin_gold_big_12","mc_coin_gold_big/coin_gold_big_13","mc_coin_gold_big/coin_gold_big_14","mc_coin_gold_big/coin_gold_big_15","mc_coin_gold_big/coin_gold_big_16","mc_coin_gold_big/coin_gold_big_17","mc_coin_gold_big/coin_gold_big_18","mc_coin_gold_big/coin_gold_big_19","mc_coin_gold_big/coin_gold_big_20","mc_coin_gold_big/coin_gold_big_21","mc_coin_gold_big/coin_gold_big_22","mc_coin_gold_big/coin_gold_big_23","mc_coin_gold_big/coin_gold_big_24","mc_coin_gold_big/coin_gold_big_25","mc_coin_gold_big/coin_gold_big_26","mc_coin_gold_big/coin_gold_big_27","mc_coin_gold_big/coin_gold_big_28","mc_coin_gold_big/coin_gold_big_29"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "coins.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":1593},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:999560d018256c4533ef13fc4de4f2eb:a1e2e02f55b7e111e9c4549745fbe689:51f960d29b2cb2ae0010061540f14fb7$"
+}
+}

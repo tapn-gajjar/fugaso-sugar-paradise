@@ -1,0 +1,645 @@
+{
+  "pingInterval":30,
+  "jpPingInterval":57,
+
+  "game_const":{
+    "coin_drop_X":5,
+    "count_not_wild":[18, 22],
+    "main_volume_no_active":0.00,
+    "volume_user_no_active":0.4,
+    "main_time_no_active":4,
+    "wait_for_win_mess":0.2,
+
+    "intro_delay_time":0
+  },
+
+  "gameName":"fugaso-sugar-paradise",
+  "parentGameName":"fugaso-into-the-jungle",
+  "langID":"f_sugar-p",
+
+  "autoSpinNumber":[5, 10, 25, 50, 75, 100, 500, 1000, -1],
+
+  "loc_graphic":{
+    "x":0, "y":0,
+    "interactiveChildren":true, "centered":false, "cacheAsBitmap":false,
+    "type":"container", "name":"c_localisation", "debug":0,
+    "entities":[
+      {
+        "x":0, "y":0,
+        "width":100, "height":100,
+        "color":"0x000000", "alpha":1,
+        "type":"rect", "name":"r_bg", "debug":0
+      },
+      {
+        "x":0, "y":0, "scale":1.0, "v_scale":0.67,
+        "anchor":0.5,
+        "type":"sprite", "texture":"fugaso_logo.png", "name":"s_game_logo_small", "debug":0
+      }
+    ]
+  },
+
+  "defaultLanguage":"eng",
+  "languageIDs":[
+    "eng",
+    "fra",
+    "deu",
+    "ita",
+    "nor",
+    "prt",
+    "rus",
+    "ukr",
+    "pol",
+    "ron",
+    "gre",
+    "esp",
+    "swe",
+    "tur",
+    "jpn",
+    "zh_cn",
+    "zh_tw",
+    "hin",
+    "kor",
+    "ind",
+    "tha",
+    "vie",
+    "gb",
+    "can"
+  ],
+  "languageMap":{
+    "gb":"eng",
+    "can":"eng"
+  },
+
+  "gameType":0,
+  "coinSystem":false,
+  "checkBetOnPaytable":false,
+  "gameHaveJackpot":true,
+  "gameHaveIntro":false,
+  "gameHaveIntroInformation":true,
+  "gameHaveRespin":true,
+  "gameHaveFree":false,
+  "buyFreeBonus":false,
+  "gameHaveGamble":false,
+  "paytableDenomination":false,
+  "lineFixed":true,
+  "useTotalBetForLimit":true,
+  "onlyBetOne":false,
+  "betWithDenomination":false,
+  "gambleWinLimit":250,
+  "delayStartMain":0.5,
+
+  "-reel_slot_machine":{
+    "symbol_dx":[14, 8, 0, -8, -14],
+    "symbol_scaleY":0.90,
+    "y_limit":280,
+    "skew_dx":[0.16, 0.09, 0, -0.09, -0.16],
+    "scale_x_coef":0.75,
+    "scale_y_coef":3
+  },
+
+  "minLineCount":5,
+  "localization":0,
+  "haveLocalisation":true,
+
+  "symbolWidth":149,
+  "symbolHeight":172,
+  "m_symbolWidth":149,
+  "m_symbolHeight":172,
+
+
+  "symbols":["D", "C", "F", "H", "E", "I", "G", "A"],
+  "-debug_start_symbols":[
+    ["D", "I", "F"],
+    ["C", "F", "H"],
+    ["D", "G", "G"],
+    ["E", "E", "A"],
+    ["G", "D", "F"]
+  ],
+  "scatterSymbol":[""],
+  "winAllScattersOnReels":false,
+  "bonusSymbol":[],
+  "longReelSymbol":[],
+  "change2LongSpeed":false,
+  "change2LongSpeedOnEnd":false,
+  "-longReelSymbolMap":{
+    "B":2
+  },
+  "timeForLongReel":4,
+  "wildSymbol":{
+    "A":["D", "C", "F", "H", "E", "I", "G"]
+  },
+  "timeWaitSpinRequest":2.0,
+
+  "checkScatterByLine":[],
+  "isWaitEffect":true,
+  "waitSymbols":["A", "@"],
+  "slowSpeedOnWaitForAll":false,
+  "effectOnWaitForAll":false,
+  "noBlurActiveReel":true,
+  "waitSymbolMap":{
+    "A":{
+      "checkReels":[0, 1, 1, 1, 0],
+      "effectReels":[0, 0, 1, 1, 0],
+      "count":2
+    },
+    "@":{
+      "checkReels":[1, 1, 1, 1, 1],
+      "effectReels":[0, 1, 1, 1, 1],
+      "count":4
+    }
+  },
+  "timeWaitReel":3.0,
+  "waitSpinSpeed":13,
+  "changeWaitSpeedOnEnd":true,
+  "waitSpinEndSpeed":10,
+  "waitSpinEndTime":0.5,
+
+  "countUp":1,
+  "countDown":1,
+  "countSlot":3,
+  "countReel":5,
+  "defaultCat":2,
+
+  "dropBetweenSymb":0.04,
+  "fallBetweenSymb":0.06,
+  "dropBetweenSymbCoef":0.5,
+  "turboSpeedCoef":1.2,
+  "timeCrashWinLine":1.23,
+
+  "startBackInTime":0.07,
+  "startBackInSpeed":-15,
+  "timeDownStartSpeed":0.4,
+
+  "endBackInTime":0.08,
+  "endBackInTime2":0.08,
+  "endBackCoef":0.2,
+
+  "stoppingMoveSpeed":50,
+  "longSpinSpeed":50,
+  "longSpinEndSpeed":10,
+  "longSpinEndTime":0.15,
+  "startReelSpeed":20,
+  "maxSpeed":40,
+  "minSpeed":40,
+  "minSkipSpeed":40,
+  "defaultDesiredTime":650,
+  "deVDesiredTime":3500,
+  "turboModeTimeCoef":0.15,
+
+  "useOn1stReel":false,
+  "delayDelayBetweenReelsTime":0.25,
+  "delayDelayBetweenReelsTimeCoef":0.3,
+  "delayStartSpinTime":0.1,
+  "delaySpinReel":0.0,
+  "delaySpinMap":{
+    "delayVector":[2, 1, 3, 0, 4],
+    "delayTime":[0.05, 0, 0.05, 0, 0]
+  },
+
+  "innerStart":true,
+  "innerFinish":true,
+
+  "blurInReelAnimation":true,
+  "-blurIgnoreList":["A"],
+  "startBlurTime":0.05,
+
+  "useConfigBlur":false,
+  "blurYScale":1.1,
+  "blurScaleTimeOn":0.9,
+  "blurScaleTimeOff":0.2,
+
+  "blurImg":true,
+  "alphaNormalImg":true,
+  "blurImgAlpha":1.0,
+  "blurImgStartAlpha":0.0,
+  "blurImgTimeOn":0.6,
+  "blurImgTimeOff":1.0,
+
+  "delaySkipSpin":0.5,
+  "delaySkipWin":0.1,
+  "oneStopOnSkip":false,
+  "hardSkip":true,
+  "hardSkipCoef":0.35,
+  "hardSkipBackCoef":0.5,
+
+  "lowVolumeOnWin":false,
+  "winValueOnCurrency":true,
+  "haveAutoCollect":false,
+  "timeAutoCollect":0,
+  "showWinAfterCollect":true,
+  "showWinOnGamble":false,
+  "haveLoopAnimation":true,
+  "startLoopAfterLines":false,
+  "oneLineWin":false,
+  "clearReelsOnWin":true,
+  "clearLinesOnWin":false,
+  "clearLinesOnWinLoop":true,
+  "incWinByLine":false,
+  "clearWinEffOnEnd":false,
+  "showLoopNoWinSymbols":true,
+  "showOnWinNoWinSymbols":false,
+  "timeShowWinLine":2.0,
+  "timeShowSkipLine":0.5,
+  "timeShowLoopLine":1.5,
+  "timeShowBonus":1.0,
+  "timeShowScatters":1.0,
+  "timeStartFreeBonus":2.0,
+  "timeMessageOnScreen":0.8,
+
+  "forceTurboWin":0.5,
+  "forceTurboBigWin":1.5,
+
+  "coins_conf":{
+    "data":{
+      "gravity":{"min":0.6, "max":0.27},
+      "spawnFrequency":{"min":0.15, "max":0.03}
+    },
+    "total":40.0
+  },
+
+  "scaleNumberLevel":1.3,
+  "scaleNumberTime":0.15,
+  "scaleNumberTimeHide":0.1,
+
+  "gameHaveBigMess":true,
+  "win_message_sec":2.6,
+  "before_lines_sec":1.4,
+  "big_win_rate":20,
+  "epic_win_rate":20,
+  "mega_win_rate":35,
+  "super_win_rate":75,
+
+  "time_jp":3,
+
+  "incSecond":0.2,
+  "gui_inc_conf":{
+    "min":0.5,
+    "max":15.0,
+    "total":100.5
+  },
+
+  "jp_conf":{
+    "min":4.0,
+    "max":10.0,
+    "total":800.0
+  },
+
+  "language":{
+    "eng":"ENGLISH",
+    "fra":"FRANÇAIS",
+    "deu":"DEUTSCH",
+    "ita":"ITALIANO",
+    "nor":"NORSK",
+    "prt":"PORTUGUÊS",
+    "rus":"РУССКИЙ",
+    "esp":"ESPAÑOL",
+    "swe":"SVENSKA",
+    "tur":"TÜRKÇE",
+    "gb":"ENGLISH",
+    "can":"ENGLISH",
+    "au":"ENGLISH",
+    "jpn":"日本語",
+    "ukr":"УКРАЇНСЬКА",
+    "pol":"POLSKI",
+    "ron":"ROMÂNĂ",
+    "gre":"ΕΛΛΗΝΙΚΑ",
+    "zh_cn":"中文",
+    "zh_tw":"中文",
+    "hin":"हिन्दी",
+    "kor":"한국어",
+    "ind":"BAHASA INDONESIA",
+    "tha":"ภาษาไทย",
+    "vie":"TIẾNG VIỆT"
+  },
+  "t_history_font_config":{
+    "style":{
+      "fontFamily":"Prompt-Bold",
+      "dropShadow":true,
+      "dropShadowAlpha":0.8,
+      "dropShadowAngle":-4.7,
+      "dropShadowColor":"#3D241D",
+      "dropShadowDistance":2,
+      "padding":10,
+      "fill":[
+        "#F5E45B",
+        "#DDCD04"
+      ],
+      "fillGradientStops":[
+        0.1,
+        0.9
+      ],
+      "lineJoin":"bevel",
+      "miterLimit":0,
+      "stroke":"#000000",
+      "strokeThickness":3,
+      "leading":0
+    },
+    "yOffset":8,
+    "yOffsetMap":{
+      "gre,rus,ukr,vie":-9,
+      "jpn":4,
+      "kor":6,
+      "tha":3,
+      "zh_cn,zh_tw":4
+    },
+    "xOffset":0,
+    "-xOffsetMap":{
+
+    },
+    "-kerning":{},
+    "-kerningMap":{
+
+    },
+    "-resolution":1, "-padding":4
+  },
+
+  "font":{
+    "buy_number_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "dropShadow": true,
+        "dropShadowAngle": -4.7,
+        "dropShadowBlur": -3,
+        "dropShadowColor": "#914018",
+        "dropShadowDistance": 6,
+        "fill": [
+          "#ff9b10",
+          "#ffc305"
+        ],
+        "fillGradientStops": [
+          0.3,
+          0.7,
+          1
+        ],
+        "miterLimit": 0,
+        "stroke": "#983d10",
+        "strokeThickness": 3,
+        "leading":0
+      },
+      "yOffset":27,
+      "-yOffsetMap":{
+        "gre,rus,ukr,vie,ron":-7
+      },
+      "xOffset":5,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "end_free_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "dropShadowAngle": 5.8,
+        "dropShadowBlur": 9,
+        "dropShadowColor": "#010033",
+        "dropShadowDistance": 0,
+        "fill": [
+          "#fff70a",
+          "#aafe00"
+        ],
+        "fillGradientStops": [
+          0.3,
+          0.6,
+          1
+        ],
+        "miterLimit": 0,
+        "stroke": "#ccfdff",
+        "strokeThickness": 4,
+        "leading":0
+      },
+      "yOffset":10,
+      "-yOffsetMap":{
+        "gre,rus,ukr,vie,ron":-7
+      },
+      "xOffset":5,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "ui_stroke_mobile_number_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xFFFFFF",
+        "fontWeight":500,
+        "stroke":"#000000",
+        "strokeThickness":2,
+        "leading":0
+      },
+      "yOffset":1,
+      "-yOffsetMap":{
+        "jpn":12
+      },
+      "-xOffset":0,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "ui_stroke_number_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xFFFFFF",
+        "fontWeight":500,
+        "stroke":"#1C1918",
+        "strokeThickness":2,
+        "leading":0
+      },
+      "yOffset":1,
+      "-yOffsetMap":{
+        "jpn":12
+      },
+      "-xOffset":0,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "ui_number_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xffffff",
+        "leading":0
+      },
+      "yOffset":0,
+      "-yOffsetMap":{
+        "jpn":12
+      },
+      "-xOffset":0,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "ui_menu_number_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xffffff",
+        "stroke":"#9e9b9b",
+        "strokeThickness":1,
+        "leading":0
+      },
+      "yOffset":0,
+      "-yOffsetMap":{
+        "jpn":12
+      },
+      "-xOffset":0,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "reality_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xffffff",
+        "leading":0
+      },
+      "yOffset":9,
+      "yOffsetMap":{
+        "jpn":14,
+        "kor":14,
+        "tha":11,
+        "zh_cn":11
+      },
+      "xOffset":2,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "xAdvance":4,
+      "-xAdvanceMap":{
+        "$":10
+      },
+      "-xAdvanceCustom":{
+        "$":25
+      },
+      "-resolution":1, "padding":15
+    },
+    "info_line_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xffffff",
+        "leading":0
+      },
+      "yOffset":9,
+      "yOffsetMap":{
+        "jpn":11,
+        "kor":17,
+        "tha":14,
+        "zh_cn,zh_tw":10
+      },
+      "xOffset":5,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "calc_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0x000000",
+        "leading":0
+      },
+      "yOffset":0,
+      "-yOffsetMap":{
+        "jpn":12
+      },
+      "-xOffset":0,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "ui_menu_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "fill":"0xFFFFFF",
+        "stroke":"#000000",
+        "strokeThickness":1,
+        "leading":0
+      },
+      "yOffset":8,
+      "yOffsetMap":{
+        "gre,pol,ron,vie":8,
+        "jpn":13,
+        "kor":17,
+        "tha":13,
+        "zh_cn,zh_tw":13
+      },
+      "-xOffset":0,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    },
+    "info_line_port_font_config":{
+      "style":{
+        "fontFamily":"BebasFont",
+        "dropShadow": true,
+        "dropShadowAlpha": 0.9,
+        "dropShadowAngle": 90,
+        "dropShadowDistance": 3,
+        "fill": "#ffffff",
+        "miterLimit": 0,
+        "strokeThickness": 2,
+        "leading":0
+      },
+      "yOffset":9,
+      "yOffsetMap":{
+        "jpn":19,
+        "kor":22,
+        "tha":19,
+        "zh_cn,zh_tw":19
+      },
+      "xOffset":5,
+      "-xOffsetMap":{
+
+      },
+      "-kerning":{},
+      "-kerningMap":{
+
+      },
+      "-resolution":1, "padding":15
+    }
+  }
+}

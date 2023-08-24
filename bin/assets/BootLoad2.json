@@ -1,0 +1,8 @@
+[
+  {"loader":"loadImage", "active":0, "name":"New Fugaso Loader.jpg", "file":"assets/Preview/desktop/"},
+
+  {"loader":"loadSpine", "active":true, "name":"loader", "file":"assets/main/Animations/Spine/"},
+  {"loader":"loadSpine", "active":false, "name":"loader", "file":"assets/main/Animations/Spine/xmas/"},
+  {"loader":"loadSpine", "active":false, "name":"parimatch_loader", "file":"assets/main/Animations/Spine/"},
+  {"loader":"loadAtlas", "resolution":true, "name":"Preloader", "file":"assets/main/Atlases/"}
+]

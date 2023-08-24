@@ -1,0 +1,132 @@
+{
+  "show_debug":0, "debug":0, "test_win_value":1000000,
+  "x":0, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+  "v_x":-168, "v_y":169, "v_scale":0.65,
+
+  "window_auto_hide":false,
+  "window_show_sec":5.5,
+  "time_alpha":1.0,
+
+  "time_tween_text":0.8,
+  "time_hide_text":0.4,
+  "time_delay_text":0.4,
+  "time_alpha_bg":1,
+  "locTexture":{
+    "deu":"cong_deu",
+    "eng,gb,can":"cong_eng",
+    "esp":"cong_esp",
+    "fra":"cong_fra",
+    "gre":"cong_gre",
+    "hin":"cong_hin",
+    "ind":"cong_ind",
+    "ita":"cong_ita",
+    "jpn":"cong_jpn",
+    "kor":"cong_kor",
+    "nor":"cong_nor",
+    "pol":"cong_pol",
+    "prt":"cong_prt",
+    "ron":"cong_ron",
+    "rus":"cong_rus",
+    "swe":"cong_swe",
+    "tha":"cong_tha",
+    "tur":"cong_tur",
+    "ukr":"cong_ukr",
+    "vie":"cong_vie",
+    "zh_cn":"cong_zh_cn",
+    "zh_tw":"cong_zh_tw"
+  },
+  "list_up_count":["jpn", "kor", "tur"],
+
+  "entities":[
+    {
+      "x":0, "y":0, "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.7,
+      "time_tween":0.8, "time_hide":0.3,
+      "type":"rect", "name":"r_bonus_tint", "debug":0, "active":10
+    },
+    {
+      "x":674, "y":391, "anchor":0.5,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"sprite", "texture":"pop_up_fx_2",
+      "name":"s_pop_up_fx_2", "debug":0
+    },
+    {
+      "x":674, "y":388, "anchor":0.5,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"sprite", "texture":"pop_up",
+      "name":"s_free_bg", "debug":0
+    },
+    {
+      "x":674, "y":233, "anchor":0.5,
+      "deepPosition":false, "noCheckSize":true,
+      "type":"sprite", "texture":"empty_graphic",
+      "name":"Congratulation", "debug":0
+    },
+    {
+      "x":673, "y":301,
+      "width":500, "height":69, "align":"center", "alignV":"middle",
+      "font":{"size":44, "name":"end_free_font"}, "letterSpacing":2,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "text":"free_end_1", "type":"textBitmap", "name":"t_1", "debug":0,
+      "hin":{
+        "width":500, "height":69, "align":"center", "alignV":"middle",
+        "fontSize":"42px", "fontName":"Mangal", "letterSpacing":0,
+        "dropShadowAngle": 5.8,
+        "dropShadowBlur": 9,
+        "dropShadowColor": "#010033",
+        "dropShadowDistance": 0,
+        "fill": [
+          "#fff70a",
+          "#aafe00"
+        ],
+        "fillGradientStops": [
+          0.3,
+          0.6,
+          1
+        ],
+        "miterLimit": 0,
+        "stroke": "#ccfdff",
+        "strokeThickness": 3,
+        "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+        "padding":10, "type":"textFont", "debug":0
+      }
+    },
+    {
+      "x":673, "y":481,
+      "width":500, "height":62, "align":"center", "alignV":"middle",
+      "font":{"size":44, "name":"end_free_font"}, "letterSpacing":2,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "text":"free_end_2", "type":"textBitmap", "name":"t_2", "debug":0,
+      "hin":{
+        "width":500, "height":69, "align":"center", "alignV":"middle",
+        "fontSize":"42px", "fontName":"Mangal", "letterSpacing":0,
+        "dropShadowAngle": 5.8,
+        "dropShadowBlur": 9,
+        "dropShadowColor": "#010033",
+        "dropShadowDistance": 0,
+        "fill": [
+          "#fff70a",
+          "#aafe00"
+        ],
+        "fillGradientStops": [
+          0.3,
+          0.6,
+          1
+        ],
+        "miterLimit": 0,
+        "stroke": "#ccfdff",
+        "strokeThickness": 3,
+        "padding":10, "leading":0, "checkFontSize":false, "oneLine":true, "toUpperCase":false,
+        "type":"textFont", "debug":0
+      }
+    },
+    {
+      "x":673, "y":381,
+      "width":500, "height":85, "align":"center", "alignV":"middle",
+      "font":{"size":64, "name":"end_free_number_font"}, "letterSpacing":2,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+      "showCent":true,
+      "text":"120", "type":"textNumberBitmap", "name":"t_total_win", "debug":0
+    }
+  ]
+}

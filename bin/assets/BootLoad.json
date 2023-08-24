@@ -1,0 +1,28 @@
+[
+  {"loader":"loadJson", "name":"GDWarning", "file":"assets/"},
+  {"loader":"loadJson", "deviceFolder":true, "name":"loadConfig", "file":""},
+  {"loader":"loadJson", "name":"GDGameLoader", "file":"assets/"},
+  {"loader":"loadJson", "name":"BootLoad2", "file":"assets/"},
+  {"loader":"loadJson", "name":"Render", "file":"assets/"},
+
+  {"loader":"loadLocal", "specType":"language", "name":"language", "file":"assets/language/"},
+  {"loader":"loadBitmapFont", "name":"respons_title_font", "file":"assets/font/"},
+  {"loader":"loadBitmapFont", "name":"respons_font", "file":"assets/font/"},
+  {
+    "loader":"loadBitmapFont", "name":"warning_font", "file":"assets/font/",
+    "locMap":{
+      "gre,pol,ron,vie":"warning_font_gre",
+      "jpn":"warning_font_jpn",
+      "kor":"warning_font_kor",
+      "tha":"warning_font_tha",
+      "zh_cn,zh_tw":"warning_font_zh_cn"
+    },
+    "lineHeight":{
+      "warning_font_jpn":10,
+      "warning_font_kor":10,
+      "warning_font_zh_cn":10
+    }
+  },
+
+  {"loader":"loadAtlas", "resolution":true, "name":"Warning", "file":"assets/main/Atlases/"}
+]

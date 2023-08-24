@@ -1,0 +1,28 @@
+{
+  "big_win_font":{
+    "commaOffset":0,
+    "dotOffset":100,
+    "spaceWidth":0,
+    "commaXOffset":0,
+    "dotXOffset":0,
+    "-1":{
+      "-xMulti":0.5,
+      "-yMulti":0,
+      "-xOffset":0,
+      "-yOffset":0
+    }
+  },
+  "jackpot_font":{
+    "commaOffset":0,
+    "dotOffset":100,
+    "spaceWidth":0,
+    "commaXOffset":0,
+    "dotXOffset":0,
+    "-1":{
+      "-xMulti":0.5,
+      "-yMulti":0,
+      "-xOffset":0,
+      "-yOffset":0
+    }
+  }
+}

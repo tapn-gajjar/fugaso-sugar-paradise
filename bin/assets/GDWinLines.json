@@ -1,0 +1,29 @@
+{
+  "deepPosition":true,
+  "debug":0,
+
+  "a_line_0":{
+    "x":665, "y":336,
+    "m_x":623, "m_y":358, "m_sdx":0, "m_sdy":0,
+    "v_x":307, "v_y":315, "v_sdx":0, "v_sdy":0,
+    "dx":0, "dy":0, "anchor":0.5,
+    "cacheName":"win_line", "nameAnimation":"winline", "name":"a_line_0",
+    "type":"actor", "fps":30, "speed":1, "debug":0
+  },
+  "a_line_2":{
+    "x":665, "y":158,
+    "m_x":636, "m_y":156, "m_sdx":0, "m_sdy":0,
+    "v_x":308, "v_y":112, "v_sdx":0, "v_sdy":0,
+    "dx":0, "dy":0, "anchor":0.5,
+    "cacheName":"win_line", "nameAnimation":"winline", "name":"a_line_2",
+    "type":"actor", "fps":30, "speed":1, "debug":0
+  },
+  "a_line_1":{
+    "x":665, "y":516,
+    "m_x":636, "m_y":561, "m_sdx":0, "m_sdy":0,
+    "v_x":308, "v_y":518, "v_sdx":0, "v_sdy":0,
+    "dx":0, "dy":0, "anchor":0.5,
+    "cacheName":"win_line", "nameAnimation":"winline", "name":"a_line_1",
+    "type":"actor", "fps":30, "speed":1, "debug":0
+  }
+}

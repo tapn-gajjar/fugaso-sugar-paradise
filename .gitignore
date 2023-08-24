@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/node_modules/
+/bin/_assetsWork/
+/bin/build.js
+/bin/build.js.map
+/bin/maps/
+*.xdk
+*.xdke
+intelxdk.config.additions.xml
+xdk-publish-meta-data.json
+xdk/project-info.json
+
+/bin/game.js
+OMY.js.map
+/debug.log

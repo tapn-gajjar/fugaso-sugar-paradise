@@ -1,0 +1,64 @@
+{
+  "show_debug":0, "debug":0,
+
+  "x":0, "y":0, "scale":1.0, "sdx":0.5, "sdy":0.5,
+  "v_x":-301, "v_y":81, "v_scale":0.89,
+
+  "window_auto_hide":false,
+  "window_show_sec":4.0,
+  "time_alpha":1.0,
+  "time_rotation":5,
+  "delay_win_message_sec":1,
+
+  "transition": {
+    "x":640, "y":360, "dx":0, "dy":0, "speed":1,
+    "deepPosition":false, "noCheckSize":true,
+    "play":false, "playLoop":false, "destroyOnKill":true,
+    "textures":"Transition", "name":"a_Transition",
+    "type":"actorSpine", "debug":0
+  },
+  "entities":[
+    {
+      "x":0, "y":0, "width":1280, "height":720,
+      "color":"0x000000", "alpha":0.7,
+      "time_tween":0.8, "time_hide":0.3,
+      "type":"rect", "name":"r_bonus_tint", "debug":0, "active":10
+    },
+    {
+      "x":639, "y":345, "dx":0, "dy":0, "speed":1, "scale":0.82,
+      "deepPosition":false, "noCheckSize":true,
+      "play":false, "playLoop":false, "destroyOnKill":true,
+      "a_play_press":"press", "a_start":"spin In", "a_spin":"spin Idle",
+      "a_end":{
+        "10":"spin Out_10",
+        "12":"spin Out_12",
+        "15":"spin Out_15",
+        "20":"spin Out_20",
+        "25":"spin Out_25",
+        "30":"spin Out_30"
+      },
+      "a_win":{
+        "10":"win_10",
+        "12":"win_12",
+        "15":"win_15",
+        "20":"win_20",
+        "25":"win_25",
+        "30":"win_30"
+      },
+      "textures":"Wheel_Into_The_Jungle", "custom_a_name":"hover", "name":"a_bg",
+      "type":"actorSpine", "debug":0
+    },
+
+    {
+      "x":577, "y":280,
+      "deepPosition":false, "noCheckSize":true,
+      "out":"empty_graphic",
+      "type":"buttonMobile", "name":"b_spin", "debug":0,
+      "overScale":0.98, "downScale":0.95, "blockAlpha":0.9,
+      "soundUp":"btn_any", "soundOver":"btn_over",
+      "entities":[
+      ],
+      "hintAreaRect":{"x":15, "y":14, "width":93, "height":95, "type":0, "debug":0}
+    }
+  ]
+}

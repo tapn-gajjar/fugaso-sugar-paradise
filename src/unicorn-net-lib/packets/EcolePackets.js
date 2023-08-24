@@ -1,0 +1,13 @@
+export const EcolePackets = {
+    LOGIN: 'LOGIN',
+    CURRENCY: 'CURRENCY',
+    JOIN: 'JOIN',
+    JOIN_DATA: 'JOIN_DATA',
+    GAME_DATA: 'GAME_DATA',
+    HISTORY: 'HISTORY',
+    JACKPOTS: 'JACKPOTS',
+    JACKPOTS_WIN: 'JACKPOTS_WIN',
+    BALANCE: 'BALANCE',
+    CONDITION: 'CONDITION',
+    ERROR: 'ERROR',
+}

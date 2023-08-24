@@ -1,0 +1,210 @@
+{
+  "show_debug":0, "debug":0,
+
+  "x":14, "y":0,
+  "v_x":-212, "v_y":89,  "v_scale":0.77,
+  "sdx":0.5, "sdy":0.5,
+
+  "rotation_sec":2.0,
+  "time_wait_for_r":2.0,
+  "max_speed":0.15,
+  "grow_speed_time":0.5,
+
+  "time_delay_rotation":1,
+
+  "delay_win_message_sec":3,
+  "delay_win_message_hide_sec":1.0,
+
+  "close_bonus_sec":5,
+  "sectors_list":[10, 2, 4, 3, 5, 2, 4, 2, 3, 5, 3, 2],
+
+  "entities":[
+    {
+      "x":626, "y":364, "tween_dy":275,
+      "time_tween":0.5, "delay":0.9,
+      "interactiveChildren":true, "centered":false,
+      "type":"container", "name":"c_wheel", "debug":0, "active":1,
+      "entities":[
+        {
+          "x":-7, "y":-7, "dx":0, "dy":0, "speed":1, "scale":0.47,
+          "play":true, "playLoop":true,
+          "textures":"Wheel", "custom_a_name":"Svet", "name":"a_Svet",
+          "type":"actorSpine", "debug":0
+        },
+        {
+          "x":0, "y":0, "anchor":0.5, "type":"sprite", "texture":"wheel_multipliers_bg", "name":"s_wheel_multipliers_bg", "debug":0
+        },
+
+        {
+          "x":-3, "y":2, "dx":0, "dy":0, "speed":0, "scale":0.48,
+          "play":false, "playLoop":false,
+          "textures":"Wheel", "custom_a_name":"Ramka", "name":"a_frame",
+          "type":"actorSpine", "debug":0
+        },
+        {
+          "x":0, "y":0, "scale":0.97,
+          "interactiveChildren":true, "centered":false,
+          "type":"container", "name":"c_wheel_center", "debug":0, "active":1,
+          "entities":[
+            {
+              "x":0, "y":0, "anchor":0.5,
+              "type":"sprite", "texture":"wheel_multipliers", "name":"s_wheel", "debug":0, "active":1
+            },
+            {
+              "x":0, "y":0, "anchorX":0.5, "anchorY":1.0,
+              "rotate":[0, 22, 44, 67, 89, 111, 134, 156, 179, 202, 224, 246, 270, 292, 314, 336],
+              "type":"sprite", "texture":"wheel_win_inner_glow", "name":"s_yellow", "debug":0, "active":0
+            },
+            {
+              "x":0, "y":0,
+              "interactiveChildren":true, "centered":false,
+              "type":"container", "name":"c_values", "debug":0, "active":0,
+              "entities":[
+                {
+                  "x":1, "y":-110, "rotate":-90,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"500", "type":"textBitmap", "name":"t_sector_0", "debug":0
+                },
+                {
+                  "x":45, "y":-97, "rotate":-67.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"1000", "type":"textBitmap", "name":"t_sector_1", "debug":0
+                },
+                {
+                  "x":77, "y":-73, "rotate":-45,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"100", "type":"textBitmap", "name":"t_sector_2", "debug":0
+                },
+                {
+                  "x":99, "y":-39, "rotate":-22.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"2000", "type":"textBitmap", "name":"t_sector_3", "debug":0
+                },
+                {
+                  "x":108, "y":2, "rotate":0,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"200", "type":"textBitmap", "name":"t_sector_4", "debug":0
+                },
+                {
+                  "x":98, "y":43, "rotate":22.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"100", "type":"textBitmap", "name":"t_sector_5", "debug":0
+                },
+                {
+                  "x":76, "y":78, "rotate":45,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"5000", "type":"textBitmap", "name":"t_sector_6", "debug":0
+                },
+                {
+                  "x":39, "y":105, "rotate":67.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"500", "type":"textBitmap", "name":"t_sector_7", "debug":0
+                },
+                {
+                  "x":-2, "y":113, "rotate":90,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"400", "type":"textBitmap", "name":"t_sector_8", "debug":0
+                },
+                {
+                  "x":-43, "y":106, "rotate":112.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"300", "type":"textBitmap", "name":"t_sector_9", "debug":0
+                },
+                {
+                  "x":-80, "y":81, "rotate":135,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"200", "type":"textBitmap", "name":"t_sector_10", "debug":0
+                },
+                {
+                  "x":-103, "y":43, "rotate":157.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"100", "type":"textBitmap", "name":"t_sector_11", "debug":0
+                },
+                {
+                  "x":-114, "y":-2, "rotate":180,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"100", "type":"textBitmap", "name":"t_sector_12", "debug":0
+                },
+                {
+                  "x":-105, "y":-44, "rotate":202.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"200", "type":"textBitmap", "name":"t_sector_13", "debug":0
+                },
+                {
+                  "x":-78, "y":-79, "rotate":225,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"300", "type":"textBitmap", "name":"t_sector_14", "debug":0
+                },
+                {
+                  "x":-42, "y":-99, "rotate":247.5,
+                  "width":120, "height":50, "align":"left", "alignV":"middle",
+                  "font":{"size":35, "name":"wheel_numbers"}, "letterSpacing":-1,
+                  "checkFontSize":true, "oneLine":true, "toUpperCase":false,
+                  "text":"400", "type":"textBitmap", "name":"t_sector_15", "debug":0
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "x":-4, "y":-17, "dx":0, "dy":0, "speed":1, "scale":0.4,
+          "play":false, "playLoop":false,
+          "textures":"Wheel", "custom_a_name":"Kvadrat", "name":"a_Win_baraban",
+          "type":"actorSpine", "debug":0
+        },
+
+        {
+          "x":-3, "y":-1, "dx":0, "dy":0, "speed":1, "scale":0.48,
+          "play":false, "playLoop":false,
+          "textures":"Wheel", "custom_a_name":"Center", "name":"a_Ramka",
+          "type":"actorSpine", "debug":0
+        },
+
+        {
+          "x":-4, "y":-6, "dx":0, "dy":0, "speed":1, "scale":0.47,
+          "play":false, "playLoop":false,
+          "textures":"Wheel", "custom_a_name":"Arrow", "name":"a_Morkov",
+          "type":"actorSpine", "debug":0
+        },
+
+        {
+          "x":-4, "y":2, "dx":0, "dy":0, "speed":1, "scale":0.48,
+          "play":true, "playLoop":false,
+          "textures":"Wheel", "custom_a_name":"Win", "name":"a_Win",
+          "type":"actorSpine", "debug":0
+        }
+      ]
+    }
+  ]
+}

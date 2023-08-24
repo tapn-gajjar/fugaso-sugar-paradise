@@ -1,0 +1,112 @@
+{
+  "debug":0, "visible":0,
+
+  "x":641, "y":361, "sdx":0.5, "sdy":0.5,
+
+  "tintAlpha":0.6,
+  "tintColor":"0xD1D2D1",
+
+  "entities":[
+    {
+      "x":0, "y":0, "anchor":0.5,
+      "type":"sprite", "texture":"dialoque_bg", "name":"s_warning_bg", "debug":0
+    },
+    {
+      "x":0, "y":-96,
+      "width":440, "height":50, "align":"center", "alignV":"middle",
+      "font":{"size":28, "name":"ui_font"}, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":true,
+      "locConst":"language_text1", "type":"textBitmap", "name":"t_head", "debug":0,
+      "hin":{
+        "x":0, "y":0,
+        "width":440, "height":50, "align":"center", "alignV":"middle",
+        "fontSize":"28px", "fontName":"Mangal", "padding":10, "fill":"0xffffff", "letterSpacing":0,
+        "checkFontSize":true, "oneLine":true, "toUpperCase":false, "locCheck":false,
+        "text":"language_text1", "type":"textFont", "name":"t_head", "debug":0
+      }
+    },
+    {
+      "x":0, "y":26,
+      "width":440, "height":57, "align":"center", "alignV":"middle", "fontWeight":"bolder",
+      "fontSize":"40px", "fontName":"Arial", "padding":5, "fill":"0xffffff", "letterSpacing":0,
+      "checkFontSize":true, "oneLine":true, "toUpperCase":false, "1stroke":"#1C1918", "1strokeThickness":1,
+      "text":"ENGLISH", "type":"textFont", "name":"t_language", "debug":0
+    },
+
+    {
+      "x":-37, "y":-52,
+      "language":{
+        "eng":"flag_gb",
+        "fra":"flag_fr",
+        "deu":"flag_de",
+        "ita":"flag_it",
+        "nor":"flag_nsk",
+        "prt":"flag_prt",
+        "rus":"flag_ru",
+        "esp":"flag_es",
+        "swe":"flag_sv",
+        "tur":"flag_tr",
+        "gb":"flag_en",
+        "can":"flag_ca",
+        "jpn":"flag_jpn",
+        "ukr":"flag_ukr",
+        "pol":"flag_pl",
+        "ron":"flag_ro",
+        "gre":"flag_gre",
+        "zh_cn":"flag_cn",
+        "zh_tw":"flag_tw",
+        "hin":"flag_hin",
+        "kor":"flag_ko",
+        "ind":"flag_ind",
+        "tha":"flag_tha",
+        "vie":"flag_vie"
+      },
+      "type":"sprite", "texture":"flag_en", "name":"s_flag", "debug":0
+    },
+
+    {
+      "x":-130, "y":-17, "anchor":0.5,
+      "out":"b_left_0", "over":"b_left_1", "soundOver":"btn_over",
+      "type":"buttonMobile", "name":"b_left", "debug":0,
+      "overScale":1.0, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true
+    },
+    {
+      "x":130, "y":-17, "anchor":0.5,
+      "out":"b_right_0", "over":"b_right_1", "soundOver":"btn_over",
+      "type":"buttonMobile", "name":"b_right", "debug":0,
+      "overScale":1.0, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true
+    },
+
+    {
+      "x":56, "y":86, "anchor":0.5, "scale":0.95,
+      "out":"b_dialoque_0", "over":"b_dialoque_1", "soundOver":"btn_over",
+      "type":"buttonMobile", "name":"b_yes", "debug":0,
+      "overScale":1.0, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true,
+      "entities":[
+        {
+          "x":0, "y":0, "anchor":0.5, "type":"sprite", "texture":"b_confirm_0", "name":"s_ico", "debug":0,
+          "out":"b_confirm_0", "over":"b_confirm_1",
+          "down":"b_confirm_1"
+        }
+      ]
+    },
+    {
+      "x":-56, "y":86, "anchor":0.5, "scale":0.95,
+      "out":"b_dialoque_0", "over":"b_dialoque_1", "soundOver":"btn_over",
+      "type":"buttonMobile", "name":"b_no", "debug":0,
+      "overScale":1.0, "downScale":0.9,
+      "activeStateList":[], "noActiveStateList":[], "alwaysAvailable":true,
+      "entities":[
+        {
+          "x":0, "y":0, "anchor":0.5, "type":"sprite", "texture":"b_decline_0", "name":"s_ico", "debug":0,
+          "out":"b_decline_0", "over":"b_decline_1",
+          "down":"b_decline_1"
+        }
+      ]
+    }
+
+  ]
+}
